@@ -1,0 +1,847 @@
+No.,ITEMS,BRAND,SIZE,Outlet,Town,Region,Price
+15,COOKING MARGARINE,Golden Ray,227g,Low Cost Supermarket S.M.R.,Cunupia,Central,10.95
+18,TABLE MARGARINE,Flora,445g,Low Cost Supermarket S.M.R.,Cunupia,Central,20.95
+19,EGGS,Large,1 Doz,Low Cost Supermarket S.M.R.,Cunupia,Central,18.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Low Cost Supermarket S.M.R.,Cunupia,Central,11.95
+23,POWDERED MILK,Dairy Dairy,225g,Low Cost Supermarket S.M.R.,Cunupia,Central,16.45
+33,FLOUR,Ibis,2kg,Low Cost Supermarket S.M.R.,Cunupia,Central,11.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Low Cost Supermarket S.M.R.,Cunupia,Central,12.95
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Low Cost Supermarket S.M.R.,Cunupia,Central,23.95
+71,TOILET SOAP,Refresh,3pk,Low Cost Supermarket S.M.R.,Cunupia,Central,14.95
+72,TOOTHPASTE,Colgate,170g,Low Cost Supermarket S.M.R.,Cunupia,Central,14.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Low Cost Supermarket S.M.R.,Cunupia,Central,14.95
+74,SOAP POWDER,Breeze Multi Active,900g,Low Cost Supermarket S.M.R.,Cunupia,Central,24.95
+75,SOAP POWDER,Radiante,875g,Low Cost Supermarket S.M.R.,Cunupia,Central,13.45
+82,CORNED BEEF,Target,340g,Low Cost Supermarket S.M.R.,Cunupia,Central,13.95
+84,INSTANT CHOCOLATE,Nesquik,500g,Low Cost Supermarket S.M.R.,Cunupia,Central,19.95
+91,MAUBY,Matouk’s,750ml,Low Cost Supermarket S.M.R.,Cunupia,Central,13.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Low Cost Supermarket S.M.R.,Cunupia,Central,10.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Low Cost Supermarket S.M.R.,Cunupia,Central,25.95
+15,COOKING MARGARINE,Golden Ray,227g,One Plus One,Cunupia,Central,13
+18,TABLE MARGARINE,Flora,445g,One Plus One,Cunupia,Central,23
+19,EGGS,Large,1 Doz,One Plus One,Cunupia,Central,22.5
+20,LIQUID MILK (Full Cream),Nestle,1L,One Plus One,Cunupia,Central,13
+23,POWDERED MILK,Dairy Dairy,225g,One Plus One,Cunupia,Central,16.5
+33,FLOUR,Ibis,2kg,One Plus One,Cunupia,Central,14
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,One Plus One,Cunupia,Central,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,One Plus One,Cunupia,Central,22.5
+71,TOILET SOAP,Refresh,3pk,One Plus One,Cunupia,Central,17.99
+72,TOOTHPASTE,Colgate,170g,One Plus One,Cunupia,Central,NA
+73,DISHWASHING LIQUID,Squeezy,725ml,One Plus One,Cunupia,Central,16
+74,SOAP POWDER,Breeze Multi Active,900g,One Plus One,Cunupia,Central,26.5
+75,SOAP POWDER,Radiante,875g,One Plus One,Cunupia,Central,15
+82,CORNED BEEF,Target,340g,One Plus One,Cunupia,Central,18.5
+84,INSTANT CHOCOLATE,Nesquik,500g,One Plus One,Cunupia,Central,24
+91,MAUBY,Matouk’s,750ml,One Plus One,Cunupia,Central,13.5
+95,ORANGE JUICE,Trinidad Citrus,19 oz,One Plus One,Cunupia,Central,12.5
+105,CORN FLAKES (Local),Sunshine,18 oz,One Plus One,Cunupia,Central,26
+15,COOKING MARGARINE,Golden Ray,227g,Price Club,Chaguanas,Central,10.95
+18,TABLE MARGARINE,Flora,445g,Price Club,Chaguanas,Central,20.95
+19,EGGS,Large,1 Doz,Price Club,Chaguanas,Central,18.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Price Club,Chaguanas,Central,11.5
+23,POWDERED MILK,Dairy Dairy,225g,Price Club,Chaguanas,Central,16.5
+33,FLOUR,Ibis,2kg,Price Club,Chaguanas,Central,11.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Price Club,Chaguanas,Central,12.97
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Price Club,Chaguanas,Central,24.95
+71,TOILET SOAP,Refresh,3pk,Price Club,Chaguanas,Central,11.95
+72,TOOTHPASTE,Colgate,170g,Price Club,Chaguanas,Central,14.5
+73,DISHWASHING LIQUID,Squeezy,725ml,Price Club,Chaguanas,Central,14.5
+74,SOAP POWDER,Breeze Multi Active,900g,Price Club,Chaguanas,Central,24.95
+75,SOAP POWDER,Radiante,875g,Price Club,Chaguanas,Central,13.95
+82,CORNED BEEF,Target,340g,Price Club,Chaguanas,Central,14.95
+84,INSTANT CHOCOLATE,Nesquik,500g,Price Club,Chaguanas,Central,22.95
+91,MAUBY,Matouk’s,750ml,Price Club,Chaguanas,Central,12.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Price Club,Chaguanas,Central,10.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Price Club,Chaguanas,Central,24.95
+15,COOKING MARGARINE,Golden Ray,227g,Xtra Foods,Chaguanas,Central,10.95
+18,TABLE MARGARINE,Flora,445g,Xtra Foods,Chaguanas,Central,20.95
+19,EGGS,Large,1 Doz,Xtra Foods,Chaguanas,Central,19.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Xtra Foods,Chaguanas,Central,NA
+23,POWDERED MILK,Dairy Dairy,225g,Xtra Foods,Chaguanas,Central,16.5
+33,FLOUR,Ibis,2kg,Xtra Foods,Chaguanas,Central,11.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Xtra Foods,Chaguanas,Central,12.99
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Xtra Foods,Chaguanas,Central,24.95
+71,TOILET SOAP,Refresh,3pk,Xtra Foods,Chaguanas,Central,14.95
+72,TOOTHPASTE,Colgate,170g,Xtra Foods,Chaguanas,Central,14.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Xtra Foods,Chaguanas,Central,14.95
+74,SOAP POWDER,Breeze Multi Active,900g,Xtra Foods,Chaguanas,Central,24.95
+75,SOAP POWDER,Radiante,875g,Xtra Foods,Chaguanas,Central,13.95
+82,CORNED BEEF,Target,340g,Xtra Foods,Chaguanas,Central,14.95
+84,INSTANT CHOCOLATE,Nesquik,500g,Xtra Foods,Chaguanas,Central,24.95
+91,MAUBY,Matouk’s,750ml,Xtra Foods,Chaguanas,Central,13.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Xtra Foods,Chaguanas,Central,11.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Xtra Foods,Chaguanas,Central,25.95
+15,COOKING MARGARINE,Golden Ray,227g,Cash & Carry,Couva,Central,10.99
+18,TABLE MARGARINE,Flora,445g,Cash & Carry,Couva,Central,20.99
+19,EGGS,Large,1 Doz,Cash & Carry,Couva,Central,19.99
+20,LIQUID MILK (Full Cream),Nestle,1L,Cash & Carry,Couva,Central,11.99
+23,POWDERED MILK,Dairy Dairy,225g,Cash & Carry,Couva,Central,16.49
+33,FLOUR,Ibis,2kg,Cash & Carry,Couva,Central,12.99
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Cash & Carry,Couva,Central,12.99
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Cash & Carry,Couva,Central,22.49
+71,TOILET SOAP,Refresh,3pk,Cash & Carry,Couva,Central,14.49
+72,TOOTHPASTE,Colgate,170g,Cash & Carry,Couva,Central,NA
+73,DISHWASHING LIQUID,Squeezy,725ml,Cash & Carry,Couva,Central,13.99
+74,SOAP POWDER,Breeze Multi Active,900g,Cash & Carry,Couva,Central,29.99
+75,SOAP POWDER,Radiante,875g,Cash & Carry,Couva,Central,13.49
+82,CORNED BEEF,Target,340g,Cash & Carry,Couva,Central,14.99
+84,INSTANT CHOCOLATE,Nesquik,500g,Cash & Carry,Couva,Central,22.49
+91,MAUBY,Matouk’s,750ml,Cash & Carry,Couva,Central,12.99
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Cash & Carry,Couva,Central,10.99
+105,CORN FLAKES (Local),Sunshine,18 oz,Cash & Carry,Couva,Central,NA
+15,COOKING MARGARINE,Golden Ray,227g,Toolsie's,Couva,Central,11.5
+18,TABLE MARGARINE,Flora,445g,Toolsie's,Couva,Central,21
+19,EGGS,Large,1 Doz,Toolsie's,Couva,Central,21
+20,LIQUID MILK (Full Cream),Nestle,1L,Toolsie's,Couva,Central,13.75
+23,POWDERED MILK,Dairy Dairy,225g,Toolsie's,Couva,Central,16.5
+33,FLOUR,Ibis,2kg,Toolsie's,Couva,Central,13
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Toolsie's,Couva,Central,NA
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Toolsie's,Couva,Central,24.75
+71,TOILET SOAP,Refresh,3pk,Toolsie's,Couva,Central,14.75
+72,TOOTHPASTE,Colgate,170g,Toolsie's,Couva,Central,15.5
+73,DISHWASHING LIQUID,Squeezy,725ml,Toolsie's,Couva,Central,15
+74,SOAP POWDER,Breeze Multi Active,900g,Toolsie's,Couva,Central,26.5
+75,SOAP POWDER,Radiante,875g,Toolsie's,Couva,Central,14.5
+82,CORNED BEEF,Target,340g,Toolsie's,Couva,Central,16.5
+84,INSTANT CHOCOLATE,Nesquik,500g,Toolsie's,Couva,Central,23.5
+91,MAUBY,Matouk’s,750ml,Toolsie's,Couva,Central,13.5
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Toolsie's,Couva,Central,11.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Toolsie's,Couva,Central,26
+15,COOKING MARGARINE,Golden Ray,227g,Massy Stores St. Augustine,Curepe,East,11.2
+18,TABLE MARGARINE,Flora,445g,Massy Stores St. Augustine,Curepe,East,21.3
+19,EGGS,Large,1 Doz,Massy Stores St. Augustine,Curepe,East,20.5
+20,LIQUID MILK (Full Cream),Nestle,1L,Massy Stores St. Augustine,Curepe,East,11.25
+23,POWDERED MILK,Dairy Dairy,225g,Massy Stores St. Augustine,Curepe,East,16.5
+33,FLOUR,Ibis,2kg,Massy Stores St. Augustine,Curepe,East,13
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Massy Stores St. Augustine,Curepe,East,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Massy Stores St. Augustine,Curepe,East,23
+71,TOILET SOAP,Refresh,3pk,Massy Stores St. Augustine,Curepe,East,14.95
+72,TOOTHPASTE,Colgate,170g,Massy Stores St. Augustine,Curepe,East,15.5
+73,DISHWASHING LIQUID,Squeezy,725ml,Massy Stores St. Augustine,Curepe,East,15.95
+74,SOAP POWDER,Breeze Multi Active,900g,Massy Stores St. Augustine,Curepe,East,24.95
+75,SOAP POWDER,Radiante,875g,Massy Stores St. Augustine,Curepe,East,13.5
+82,CORNED BEEF,Target,340g,Massy Stores St. Augustine,Curepe,East,16.9
+84,INSTANT CHOCOLATE,Nesquik,500g,Massy Stores St. Augustine,Curepe,East,24
+91,MAUBY,Matouk’s,750ml,Massy Stores St. Augustine,Curepe,East,13.49
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Massy Stores St. Augustine,Curepe,East,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Massy Stores St. Augustine,Curepe,East,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Tru Valu Valpark,Curepe,East,11
+18,TABLE MARGARINE,Flora,445g,Tru Valu Valpark,Curepe,East,21
+19,EGGS,Large,1 Doz,Tru Valu Valpark,Curepe,East,NA
+20,LIQUID MILK (Full Cream),Nestle,1L,Tru Valu Valpark,Curepe,East,13.5
+23,POWDERED MILK,Dairy Dairy,225g,Tru Valu Valpark,Curepe,East,NA
+33,FLOUR,Ibis,2kg,Tru Valu Valpark,Curepe,East,12.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Tru Valu Valpark,Curepe,East,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Tru Valu Valpark,Curepe,East,23
+71,TOILET SOAP,Refresh,3pk,Tru Valu Valpark,Curepe,East,14.95
+72,TOOTHPASTE,Colgate,170g,Tru Valu Valpark,Curepe,East,16.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Tru Valu Valpark,Curepe,East,16.5
+74,SOAP POWDER,Breeze Multi Active,900g,Tru Valu Valpark,Curepe,East,25.5
+75,SOAP POWDER,Radiante,875g,Tru Valu Valpark,Curepe,East,13.75
+82,CORNED BEEF,Target,340g,Tru Valu Valpark,Curepe,East,16
+84,INSTANT CHOCOLATE,Nesquik,500g,Tru Valu Valpark,Curepe,East,23.5
+91,MAUBY,Matouk’s,750ml,Tru Valu Valpark,Curepe,East,13.5
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Tru Valu Valpark,Curepe,East,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Tru Valu Valpark,Curepe,East,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Cost Cutters,Tunapuna,East,10.5
+18,TABLE MARGARINE,Flora,445g,Cost Cutters,Tunapuna,East,19.5
+19,EGGS,Large,1 Doz,Cost Cutters,Tunapuna,East,18
+20,LIQUID MILK (Full Cream),Nestle,1L,Cost Cutters,Tunapuna,East,11.25
+23,POWDERED MILK,Dairy Dairy,225g,Cost Cutters,Tunapuna,East,16.5
+33,FLOUR,Ibis,2kg,Cost Cutters,Tunapuna,East,13
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Cost Cutters,Tunapuna,East,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Cost Cutters,Tunapuna,East,22
+71,TOILET SOAP,Refresh,3pk,Cost Cutters,Tunapuna,East,14.5
+72,TOOTHPASTE,Colgate,170g,Cost Cutters,Tunapuna,East,16.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Cost Cutters,Tunapuna,East,15
+74,SOAP POWDER,Breeze Multi Active,900g,Cost Cutters,Tunapuna,East,25.5
+75,SOAP POWDER,Radiante,875g,Cost Cutters,Tunapuna,East,13.5
+82,CORNED BEEF,Target,340g,Cost Cutters,Tunapuna,East,13.95
+84,INSTANT CHOCOLATE,Nesquik,500g,Cost Cutters,Tunapuna,East,22.5
+91,MAUBY,Matouk’s,750ml,Cost Cutters,Tunapuna,East,13.25
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Cost Cutters,Tunapuna,East,11.25
+105,CORN FLAKES (Local),Sunshine,18 oz,Cost Cutters,Tunapuna,East,26
+15,COOKING MARGARINE,Golden Ray,227g,DiskoMart,Tunapuna,East,11.2
+18,TABLE MARGARINE,Flora,445g,DiskoMart,Tunapuna,East,21.3
+19,EGGS,Large,1 Doz,DiskoMart,Tunapuna,East,19.95
+20,LIQUID MILK (Full Cream),Nestle,1L,DiskoMart,Tunapuna,East,13
+23,POWDERED MILK,Dairy Dairy,225g,DiskoMart,Tunapuna,East,16.5
+33,FLOUR,Ibis,2kg,DiskoMart,Tunapuna,East,13
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,DiskoMart,Tunapuna,East,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,DiskoMart,Tunapuna,East,23
+71,TOILET SOAP,Refresh,3pk,DiskoMart,Tunapuna,East,14.95
+72,TOOTHPASTE,Colgate,170g,DiskoMart,Tunapuna,East,18
+73,DISHWASHING LIQUID,Squeezy,725ml,DiskoMart,Tunapuna,East,15.95
+74,SOAP POWDER,Breeze Multi Active,900g,DiskoMart,Tunapuna,East,24.95
+75,SOAP POWDER,Radiante,875g,DiskoMart,Tunapuna,East,13.5
+82,CORNED BEEF,Target,340g,DiskoMart,Tunapuna,East,16.9
+84,INSTANT CHOCOLATE,Nesquik,500g,DiskoMart,Tunapuna,East,24
+91,MAUBY,Matouk’s,750ml,DiskoMart,Tunapuna,East,13.49
+95,ORANGE JUICE,Trinidad Citrus,19 oz,DiskoMart,Tunapuna,East,12
+105,CORN FLAKES (Local),Sunshine,18 oz,DiskoMart,Tunapuna,East,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Xtra Foods,Arima,East,10.95
+18,TABLE MARGARINE,Flora,445g,Xtra Foods,Arima,East,20.95
+19,EGGS,Large,1 Doz,Xtra Foods,Arima,East,19.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Xtra Foods,Arima,East,11.95
+23,POWDERED MILK,Dairy Dairy,225g,Xtra Foods,Arima,East,16.5
+33,FLOUR,Ibis,2kg,Xtra Foods,Arima,East,11.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Xtra Foods,Arima,East,12.99
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Xtra Foods,Arima,East,24.95
+71,TOILET SOAP,Refresh,3pk,Xtra Foods,Arima,East,14.95
+72,TOOTHPASTE,Colgate,170g,Xtra Foods,Arima,East,14.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Xtra Foods,Arima,East,14.95
+74,SOAP POWDER,Breeze Multi Active,900g,Xtra Foods,Arima,East,24.95
+75,SOAP POWDER,Radiante,875g,Xtra Foods,Arima,East,13.95
+82,CORNED BEEF,Target,340g,Xtra Foods,Arima,East,14.95
+84,INSTANT CHOCOLATE,Nesquik,500g,Xtra Foods,Arima,East,24.95
+91,MAUBY,Matouk’s,750ml,Xtra Foods,Arima,East,13.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Xtra Foods,Arima,East,11.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Xtra Foods,Arima,East,25.95
+15,COOKING MARGARINE,Golden Ray,227g,Massy Stores,Arima,East,11.2
+18,TABLE MARGARINE,Flora,445g,Massy Stores,Arima,East,21.3
+19,EGGS,Large,1 Doz,Massy Stores,Arima,East,20.5
+20,LIQUID MILK (Full Cream),Nestle,1L,Massy Stores,Arima,East,11.25
+23,POWDERED MILK,Dairy Dairy,225g,Massy Stores,Arima,East,16.5
+33,FLOUR,Ibis,2kg,Massy Stores,Arima,East,13
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Massy Stores,Arima,East,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Massy Stores,Arima,East,23
+71,TOILET SOAP,Refresh,3pk,Massy Stores,Arima,East,14.95
+72,TOOTHPASTE,Colgate,170g,Massy Stores,Arima,East,15.5
+73,DISHWASHING LIQUID,Squeezy,725ml,Massy Stores,Arima,East,15.95
+74,SOAP POWDER,Breeze Multi Active,900g,Massy Stores,Arima,East,24.95
+75,SOAP POWDER,Radiante,875g,Massy Stores,Arima,East,13.5
+82,CORNED BEEF,Target,340g,Massy Stores,Arima,East,16.9
+84,INSTANT CHOCOLATE,Nesquik,500g,Massy Stores,Arima,East,24
+91,MAUBY,Matouk’s,750ml,Massy Stores,Arima,East,13.49
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Massy Stores,Arima,East,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Massy Stores,Arima,East,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Maharaj Budget Price,Sangre Grande,East,11
+18,TABLE MARGARINE,Flora,445g,Maharaj Budget Price,Sangre Grande,East,21
+19,EGGS,Large,1 Doz,Maharaj Budget Price,Sangre Grande,East,22
+20,LIQUID MILK (Full Cream),Nestle,1L,Maharaj Budget Price,Sangre Grande,East,12.75
+23,POWDERED MILK,Dairy Dairy,225g,Maharaj Budget Price,Sangre Grande,East,16.5
+33,FLOUR,Ibis,2kg,Maharaj Budget Price,Sangre Grande,East,14.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Maharaj Budget Price,Sangre Grande,East,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Maharaj Budget Price,Sangre Grande,East,23
+71,TOILET SOAP,Refresh,3pk,Maharaj Budget Price,Sangre Grande,East,17
+72,TOOTHPASTE,Colgate,170g,Maharaj Budget Price,Sangre Grande,East,13.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Maharaj Budget Price,Sangre Grande,East,16
+74,SOAP POWDER,Breeze Multi Active,900g,Maharaj Budget Price,Sangre Grande,East,25
+75,SOAP POWDER,Radiante,875g,Maharaj Budget Price,Sangre Grande,East,NA
+82,CORNED BEEF,Target,340g,Maharaj Budget Price,Sangre Grande,East,14
+84,INSTANT CHOCOLATE,Nesquik,500g,Maharaj Budget Price,Sangre Grande,East,24
+91,MAUBY,Matouk’s,750ml,Maharaj Budget Price,Sangre Grande,East,13.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Maharaj Budget Price,Sangre Grande,East,13
+105,CORN FLAKES (Local),Sunshine,18 oz,Maharaj Budget Price,Sangre Grande,East,26
+15,COOKING MARGARINE,Golden Ray,227g,Coss Cutters,Sangre Grande,East,11
+18,TABLE MARGARINE,Flora,445g,Coss Cutters,Sangre Grande,East,21
+19,EGGS,Large,1 Doz,Coss Cutters,Sangre Grande,East,21
+20,LIQUID MILK (Full Cream),Nestle,1L,Coss Cutters,Sangre Grande,East,11.5
+23,POWDERED MILK,Dairy Dairy,225g,Coss Cutters,Sangre Grande,East,16.5
+33,FLOUR,Ibis,2kg,Coss Cutters,Sangre Grande,East,13
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Coss Cutters,Sangre Grande,East,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Coss Cutters,Sangre Grande,East,22.5
+71,TOILET SOAP,Refresh,3pk,Coss Cutters,Sangre Grande,East,16.5
+72,TOOTHPASTE,Colgate,170g,Coss Cutters,Sangre Grande,East,17.3
+73,DISHWASHING LIQUID,Squeezy,725ml,Coss Cutters,Sangre Grande,East,16
+74,SOAP POWDER,Breeze Multi Active,900g,Coss Cutters,Sangre Grande,East,25.5
+75,SOAP POWDER,Radiante,875g,Coss Cutters,Sangre Grande,East,13.5
+82,CORNED BEEF,Target,340g,Coss Cutters,Sangre Grande,East,15
+84,INSTANT CHOCOLATE,Nesquik,500g,Coss Cutters,Sangre Grande,East,23
+91,MAUBY,Matouk’s,750ml,Coss Cutters,Sangre Grande,East,13.25
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Coss Cutters,Sangre Grande,East,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Coss Cutters,Sangre Grande,East,NA
+15,COOKING MARGARINE,Golden Ray,227g,Cumana Co Operative,Toco,East,11.5
+18,TABLE MARGARINE,Flora,445g,Cumana Co Operative,Toco,East,19.95
+19,EGGS,Large,1 Doz,Cumana Co Operative,Toco,East,25
+20,LIQUID MILK (Full Cream),Nestle,1L,Cumana Co Operative,Toco,East,13
+23,POWDERED MILK,Dairy Dairy,225g,Cumana Co Operative,Toco,East,NA
+33,FLOUR,Ibis,2kg,Cumana Co Operative,Toco,East,13.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Cumana Co Operative,Toco,East,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Cumana Co Operative,Toco,East,23.45
+71,TOILET SOAP,Refresh,3pk,Cumana Co Operative,Toco,East,15
+72,TOOTHPASTE,Colgate,170g,Cumana Co Operative,Toco,East,18
+73,DISHWASHING LIQUID,Squeezy,725ml,Cumana Co Operative,Toco,East,16
+74,SOAP POWDER,Breeze Multi Active,900g,Cumana Co Operative,Toco,East,NA
+75,SOAP POWDER,Radiante,875g,Cumana Co Operative,Toco,East,14.5
+82,CORNED BEEF,Target,340g,Cumana Co Operative,Toco,East,NA
+84,INSTANT CHOCOLATE,Nesquik,500g,Cumana Co Operative,Toco,East,23.35
+91,MAUBY,Matouk’s,750ml,Cumana Co Operative,Toco,East,13.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Cumana Co Operative,Toco,East,NA
+105,CORN FLAKES (Local),Sunshine,18 oz,Cumana Co Operative,Toco,East,26
+15,COOKING MARGARINE,Golden Ray,227g,Back to Basics,Port of Spain,North,11.5
+18,TABLE MARGARINE,Flora,445g,Back to Basics,Port of Spain,North,21.5
+19,EGGS,Large,1 Doz,Back to Basics,Port of Spain,North,20
+20,LIQUID MILK (Full Cream),Nestle,1L,Back to Basics,Port of Spain,North,13.99
+23,POWDERED MILK,Dairy Dairy,225g,Back to Basics,Port of Spain,North,16.5
+33,FLOUR,Ibis,2kg,Back to Basics,Port of Spain,North,13.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Back to Basics,Port of Spain,North,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Back to Basics,Port of Spain,North,24.5
+71,TOILET SOAP,Refresh,3pk,Back to Basics,Port of Spain,North,16.5
+72,TOOTHPASTE,Colgate,170g,Back to Basics,Port of Spain,North,NA
+73,DISHWASHING LIQUID,Squeezy,725ml,Back to Basics,Port of Spain,North,14.5
+74,SOAP POWDER,Breeze Multi Active,900g,Back to Basics,Port of Spain,North,26.5
+75,SOAP POWDER,Radiante,875g,Back to Basics,Port of Spain,North,14
+82,CORNED BEEF,Target,340g,Back to Basics,Port of Spain,North,15.49
+84,INSTANT CHOCOLATE,Nesquik,500g,Back to Basics,Port of Spain,North,23.99
+91,MAUBY,Matouk’s,750ml,Back to Basics,Port of Spain,North,13.5
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Back to Basics,Port of Spain,North,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Back to Basics,Port of Spain,North,26
+15,COOKING MARGARINE,Golden Ray,227g,Payless,Port of Spain,North,11.5
+18,TABLE MARGARINE,Flora,445g,Payless,Port of Spain,North,22
+19,EGGS,Large,1 Doz,Payless,Port of Spain,North,22
+20,LIQUID MILK (Full Cream),Nestle,1L,Payless,Port of Spain,North,13.5
+23,POWDERED MILK,Dairy Dairy,225g,Payless,Port of Spain,North,16.5
+33,FLOUR,Ibis,2kg,Payless,Port of Spain,North,12.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Payless,Port of Spain,North,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Payless,Port of Spain,North,23.95
+71,TOILET SOAP,Refresh,3pk,Payless,Port of Spain,North,14.95
+72,TOOTHPASTE,Colgate,170g,Payless,Port of Spain,North,15.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Payless,Port of Spain,North,NA
+74,SOAP POWDER,Breeze Multi Active,900g,Payless,Port of Spain,North,26.95
+75,SOAP POWDER,Radiante,875g,Payless,Port of Spain,North,22.95
+82,CORNED BEEF,Target,340g,Payless,Port of Spain,North,NA
+84,INSTANT CHOCOLATE,Nesquik,500g,Payless,Port of Spain,North,24.95
+91,MAUBY,Matouk’s,750ml,Payless,Port of Spain,North,NA
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Payless,Port of Spain,North,11.99
+105,CORN FLAKES (Local),Sunshine,18 oz,Payless,Port of Spain,North,26
+15,COOKING MARGARINE,Golden Ray,227g,Jumbo Foods,Barataria,North,11.95
+18,TABLE MARGARINE,Flora,445g,Jumbo Foods,Barataria,North,22.95
+19,EGGS,Large,1 Doz,Jumbo Foods,Barataria,North,21.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Jumbo Foods,Barataria,North,12.95
+23,POWDERED MILK,Dairy Dairy,225g,Jumbo Foods,Barataria,North,16.5
+33,FLOUR,Ibis,2kg,Jumbo Foods,Barataria,North,11.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Jumbo Foods,Barataria,North,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Jumbo Foods,Barataria,North,22.95
+71,TOILET SOAP,Refresh,3pk,Jumbo Foods,Barataria,North,16.95
+72,TOOTHPASTE,Colgate,170g,Jumbo Foods,Barataria,North,15.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Jumbo Foods,Barataria,North,15.95
+74,SOAP POWDER,Breeze Multi Active,900g,Jumbo Foods,Barataria,North,25.95
+75,SOAP POWDER,Radiante,875g,Jumbo Foods,Barataria,North,13.95
+82,CORNED BEEF,Target,340g,Jumbo Foods,Barataria,North,14.95
+84,INSTANT CHOCOLATE,Nesquik,500g,Jumbo Foods,Barataria,North,24.95
+91,MAUBY,Matouk’s,750ml,Jumbo Foods,Barataria,North,13.5
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Jumbo Foods,Barataria,North,9.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Jumbo Foods,Barataria,North,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Food Giant,Barataria,North,10.5
+18,TABLE MARGARINE,Flora,445g,Food Giant,Barataria,North,20.95
+19,EGGS,Large,1 Doz,Food Giant,Barataria,North,24.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Food Giant,Barataria,North,NA
+23,POWDERED MILK,Dairy Dairy,225g,Food Giant,Barataria,North,16.5
+33,FLOUR,Ibis,2kg,Food Giant,Barataria,North,12.35
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Food Giant,Barataria,North,12.95
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Food Giant,Barataria,North,23
+71,TOILET SOAP,Refresh,3pk,Food Giant,Barataria,North,16.5
+72,TOOTHPASTE,Colgate,170g,Food Giant,Barataria,North,16.85
+73,DISHWASHING LIQUID,Squeezy,725ml,Food Giant,Barataria,North,15.5
+74,SOAP POWDER,Breeze Multi Active,900g,Food Giant,Barataria,North,30.95
+75,SOAP POWDER,Radiante,875g,Food Giant,Barataria,North,12.95
+82,CORNED BEEF,Target,340g,Food Giant,Barataria,North,16.65
+84,INSTANT CHOCOLATE,Nesquik,500g,Food Giant,Barataria,North,22.5
+91,MAUBY,Matouk’s,750ml,Food Giant,Barataria,North,13.2
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Food Giant,Barataria,North,11.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Food Giant,Barataria,North,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Ramish & Leela,San Juan,North,11.5
+18,TABLE MARGARINE,Flora,445g,Ramish & Leela,San Juan,North,21
+19,EGGS,Large,1 Doz,Ramish & Leela,San Juan,North,17
+20,LIQUID MILK (Full Cream),Nestle,1L,Ramish & Leela,San Juan,North,12.25
+23,POWDERED MILK,Dairy Dairy,225g,Ramish & Leela,San Juan,North,16.5
+33,FLOUR,Ibis,2kg,Ramish & Leela,San Juan,North,12.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Ramish & Leela,San Juan,North,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Ramish & Leela,San Juan,North,24
+71,TOILET SOAP,Refresh,3pk,Ramish & Leela,San Juan,North,16
+72,TOOTHPASTE,Colgate,170g,Ramish & Leela,San Juan,North,NA
+73,DISHWASHING LIQUID,Squeezy,725ml,Ramish & Leela,San Juan,North,16
+74,SOAP POWDER,Breeze Multi Active,900g,Ramish & Leela,San Juan,North,24.95
+75,SOAP POWDER,Radiante,875g,Ramish & Leela,San Juan,North,13.5
+82,CORNED BEEF,Target,340g,Ramish & Leela,San Juan,North,15.5
+84,INSTANT CHOCOLATE,Nesquik,500g,Ramish & Leela,San Juan,North,23.95
+91,MAUBY,Matouk’s,750ml,Ramish & Leela,San Juan,North,13.5
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Ramish & Leela,San Juan,North,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Ramish & Leela,San Juan,North,26
+15,COOKING MARGARINE,Golden Ray,227g,Tru Valu,San Juan,North,11
+18,TABLE MARGARINE,Flora,445g,Tru Valu,San Juan,North,21
+19,EGGS,Large,1 Doz,Tru Valu,San Juan,North,19.55
+20,LIQUID MILK (Full Cream),Nestle,1L,Tru Valu,San Juan,North,13.5
+23,POWDERED MILK,Dairy Dairy,225g,Tru Valu,San Juan,North,NA
+33,FLOUR,Ibis,2kg,Tru Valu,San Juan,North,12.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Tru Valu,San Juan,North,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Tru Valu,San Juan,North,23
+71,TOILET SOAP,Refresh,3pk,Tru Valu,San Juan,North,14.95
+72,TOOTHPASTE,Colgate,170g,Tru Valu,San Juan,North,16.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Tru Valu,San Juan,North,16.5
+74,SOAP POWDER,Breeze Multi Active,900g,Tru Valu,San Juan,North,25.5
+75,SOAP POWDER,Radiante,875g,Tru Valu,San Juan,North,13.75
+82,CORNED BEEF,Target,340g,Tru Valu,San Juan,North,16
+84,INSTANT CHOCOLATE,Nesquik,500g,Tru Valu,San Juan,North,23.5
+91,MAUBY,Matouk’s,750ml,Tru Valu,San Juan,North,13.5
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Tru Valu,San Juan,North,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Tru Valu,San Juan,North,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Food Basket,San Fernando,South,11.35
+18,TABLE MARGARINE,Flora,445g,Food Basket,San Fernando,South,21.95
+19,EGGS,Large,1 Doz,Food Basket,San Fernando,South,19.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Food Basket,San Fernando,South,12.5
+23,POWDERED MILK,Dairy Dairy,225g,Food Basket,San Fernando,South,16.5
+33,FLOUR,Ibis,2kg,Food Basket,San Fernando,South,11.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Food Basket,San Fernando,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Food Basket,San Fernando,South,23.5
+71,TOILET SOAP,Refresh,3pk,Food Basket,San Fernando,South,15.5
+72,TOOTHPASTE,Colgate,170g,Food Basket,San Fernando,South,16.75
+73,DISHWASHING LIQUID,Squeezy,725ml,Food Basket,San Fernando,South,14.95
+74,SOAP POWDER,Breeze Multi Active,900g,Food Basket,San Fernando,South,24.95
+75,SOAP POWDER,Radiante,875g,Food Basket,San Fernando,South,13.5
+82,CORNED BEEF,Target,340g,Food Basket,San Fernando,South,16.5
+84,INSTANT CHOCOLATE,Nesquik,500g,Food Basket,San Fernando,South,23.75
+91,MAUBY,Matouk’s,750ml,Food Basket,San Fernando,South,13.25
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Food Basket,San Fernando,South,11.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Food Basket,San Fernando,South,26
+15,COOKING MARGARINE,Golden Ray,227g,Len Hap,San Fernando,South,11
+18,TABLE MARGARINE,Flora,445g,Len Hap,San Fernando,South,20.5
+19,EGGS,Large,1 Doz,Len Hap,San Fernando,South,20
+20,LIQUID MILK (Full Cream),Nestle,1L,Len Hap,San Fernando,South,12.5
+23,POWDERED MILK,Dairy Dairy,225g,Len Hap,San Fernando,South,16.5
+33,FLOUR,Ibis,2kg,Len Hap,San Fernando,South,12.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Len Hap,San Fernando,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Len Hap,San Fernando,South,23
+71,TOILET SOAP,Refresh,3pk,Len Hap,San Fernando,South,14.75
+72,TOOTHPASTE,Colgate,170g,Len Hap,San Fernando,South,14.75
+73,DISHWASHING LIQUID,Squeezy,725ml,Len Hap,San Fernando,South,12.75
+74,SOAP POWDER,Breeze Multi Active,900g,Len Hap,San Fernando,South,23.5
+75,SOAP POWDER,Radiante,875g,Len Hap,San Fernando,South,NA
+82,CORNED BEEF,Target,340g,Len Hap,San Fernando,South,15
+84,INSTANT CHOCOLATE,Nesquik,500g,Len Hap,San Fernando,South,22.5
+91,MAUBY,Matouk’s,750ml,Len Hap,San Fernando,South,13.25
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Len Hap,San Fernando,South,11.5
+105,CORN FLAKES (Local),Sunshine,18 oz,Len Hap,San Fernando,South,26
+15,COOKING MARGARINE,Golden Ray,227g,MS Food City,Debe,South,11
+18,TABLE MARGARINE,Flora,445g,MS Food City,Debe,South,21
+19,EGGS,Large,1 Doz,MS Food City,Debe,South,19.95
+20,LIQUID MILK (Full Cream),Nestle,1L,MS Food City,Debe,South,11.95
+23,POWDERED MILK,Dairy Dairy,225g,MS Food City,Debe,South,15.95
+33,FLOUR,Ibis,2kg,MS Food City,Debe,South,11.75
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,MS Food City,Debe,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,MS Food City,Debe,South,22.5
+71,TOILET SOAP,Refresh,3pk,MS Food City,Debe,South,13.95
+72,TOOTHPASTE,Colgate,170g,MS Food City,Debe,South,14.25
+73,DISHWASHING LIQUID,Squeezy,725ml,MS Food City,Debe,South,14.5
+74,SOAP POWDER,Breeze Multi Active,900g,MS Food City,Debe,South,24.95
+75,SOAP POWDER,Radiante,875g,MS Food City,Debe,South,13.5
+82,CORNED BEEF,Target,340g,MS Food City,Debe,South,15
+84,INSTANT CHOCOLATE,Nesquik,500g,MS Food City,Debe,South,23.75
+91,MAUBY,Matouk’s,750ml,MS Food City,Debe,South,13.25
+95,ORANGE JUICE,Trinidad Citrus,19 oz,MS Food City,Debe,South,13.25
+105,CORN FLAKES (Local),Sunshine,18 oz,MS Food City,Debe,South,26
+15,COOKING MARGARINE,Golden Ray,227g,G & N,Debe,South,10.99
+18,TABLE MARGARINE,Flora,445g,G & N,Debe,South,21.95
+19,EGGS,Large,1 Doz,G & N,Debe,South,20.95
+20,LIQUID MILK (Full Cream),Nestle,1L,G & N,Debe,South,12.95
+23,POWDERED MILK,Dairy Dairy,225g,G & N,Debe,South,16.5
+33,FLOUR,Ibis,2kg,G & N,Debe,South,12.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,G & N,Debe,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,G & N,Debe,South,24.99
+71,TOILET SOAP,Refresh,3pk,G & N,Debe,South,16.95
+72,TOOTHPASTE,Colgate,170g,G & N,Debe,South,17.95
+73,DISHWASHING LIQUID,Squeezy,725ml,G & N,Debe,South,13.95
+74,SOAP POWDER,Breeze Multi Active,900g,G & N,Debe,South,25.49
+75,SOAP POWDER,Radiante,875g,G & N,Debe,South,13.5
+82,CORNED BEEF,Target,340g,G & N,Debe,South,16.95
+84,INSTANT CHOCOLATE,Nesquik,500g,G & N,Debe,South,23.95
+91,MAUBY,Matouk’s,750ml,G & N,Debe,South,13.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,G & N,Debe,South,11.5
+105,CORN FLAKES (Local),Sunshine,18 oz,G & N,Debe,South,NA
+15,COOKING MARGARINE,Golden Ray,227g,Stop & Shop,Siparia/Fyzabad,South,12
+18,TABLE MARGARINE,Flora,445g,Stop & Shop,Siparia/Fyzabad,South,23
+19,EGGS,Large,1 Doz,Stop & Shop,Siparia/Fyzabad,South,20
+20,LIQUID MILK (Full Cream),Nestle,1L,Stop & Shop,Siparia/Fyzabad,South,13.5
+23,POWDERED MILK,Dairy Dairy,225g,Stop & Shop,Siparia/Fyzabad,South,NA
+33,FLOUR,Ibis,2kg,Stop & Shop,Siparia/Fyzabad,South,13.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Stop & Shop,Siparia/Fyzabad,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Stop & Shop,Siparia/Fyzabad,South,24
+71,TOILET SOAP,Refresh,3pk,Stop & Shop,Siparia/Fyzabad,South,17.25
+72,TOOTHPASTE,Colgate,170g,Stop & Shop,Siparia/Fyzabad,South,18
+73,DISHWASHING LIQUID,Squeezy,725ml,Stop & Shop,Siparia/Fyzabad,South,NA
+74,SOAP POWDER,Breeze Multi Active,900g,Stop & Shop,Siparia/Fyzabad,South,26.5
+75,SOAP POWDER,Radiante,875g,Stop & Shop,Siparia/Fyzabad,South,14.5
+82,CORNED BEEF,Target,340g,Stop & Shop,Siparia/Fyzabad,South,17.25
+84,INSTANT CHOCOLATE,Nesquik,500g,Stop & Shop,Siparia/Fyzabad,South,NA
+91,MAUBY,Matouk’s,750ml,Stop & Shop,Siparia/Fyzabad,South,14
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Stop & Shop,Siparia/Fyzabad,South,13.5
+105,CORN FLAKES (Local),Sunshine,18 oz,Stop & Shop,Siparia/Fyzabad,South,26
+15,COOKING MARGARINE,Golden Ray,227g,Anand Low Price,Siparia/Fyzabad,South,10.95
+18,TABLE MARGARINE,Flora,445g,Anand Low Price,Siparia/Fyzabad,South,19.95
+19,EGGS,Large,1 Doz,Anand Low Price,Siparia/Fyzabad,South,19.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Anand Low Price,Siparia/Fyzabad,South,13.95
+23,POWDERED MILK,Dairy Dairy,225g,Anand Low Price,Siparia/Fyzabad,South,16.5
+33,FLOUR,Ibis,2kg,Anand Low Price,Siparia/Fyzabad,South,12.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Anand Low Price,Siparia/Fyzabad,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Anand Low Price,Siparia/Fyzabad,South,22.95
+71,TOILET SOAP,Refresh,3pk,Anand Low Price,Siparia/Fyzabad,South,15.95
+72,TOOTHPASTE,Colgate,170g,Anand Low Price,Siparia/Fyzabad,South,13.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Anand Low Price,Siparia/Fyzabad,South,NA
+74,SOAP POWDER,Breeze Multi Active,900g,Anand Low Price,Siparia/Fyzabad,South,24.95
+75,SOAP POWDER,Radiante,875g,Anand Low Price,Siparia/Fyzabad,South,13.95
+82,CORNED BEEF,Target,340g,Anand Low Price,Siparia/Fyzabad,South,16.95
+84,INSTANT CHOCOLATE,Nesquik,500g,Anand Low Price,Siparia/Fyzabad,South,24.95
+91,MAUBY,Matouk’s,750ml,Anand Low Price,Siparia/Fyzabad,South,14.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Anand Low Price,Siparia/Fyzabad,South,11.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Anand Low Price,Siparia/Fyzabad,South,26
+15,COOKING MARGARINE,Golden Ray,227g,Peiping,Point Fortin,South,10.99
+18,TABLE MARGARINE,Flora,445g,Peiping,Point Fortin,South,18.95
+19,EGGS,Large,1 Doz,Peiping,Point Fortin,South,22.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Peiping,Point Fortin,South,11.75
+23,POWDERED MILK,Dairy Dairy,225g,Peiping,Point Fortin,South,16.5
+33,FLOUR,Ibis,2kg,Peiping,Point Fortin,South,12.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Peiping,Point Fortin,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Peiping,Point Fortin,South,23
+71,TOILET SOAP,Refresh,3pk,Peiping,Point Fortin,South,14.95
+72,TOOTHPASTE,Colgate,170g,Peiping,Point Fortin,South,15.99
+73,DISHWASHING LIQUID,Squeezy,725ml,Peiping,Point Fortin,South,12.95
+74,SOAP POWDER,Breeze Multi Active,900g,Peiping,Point Fortin,South,25.95
+75,SOAP POWDER,Radiante,875g,Peiping,Point Fortin,South,13.95
+82,CORNED BEEF,Target,340g,Peiping,Point Fortin,South,16.65
+84,INSTANT CHOCOLATE,Nesquik,500g,Peiping,Point Fortin,South,23.75
+91,MAUBY,Matouk’s,750ml,Peiping,Point Fortin,South,13.75
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Peiping,Point Fortin,South,11.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Peiping,Point Fortin,South,25.95
+15,COOKING MARGARINE,Golden Ray,227g,Persad's,Point Fortin,South,10.95
+18,TABLE MARGARINE,Flora,445g,Persad's,Point Fortin,South,21.99
+19,EGGS,Large,1 Doz,Persad's,Point Fortin,South,19.49
+20,LIQUID MILK (Full Cream),Nestle,1L,Persad's,Point Fortin,South,12.99
+23,POWDERED MILK,Dairy Dairy,225g,Persad's,Point Fortin,South,16.5
+33,FLOUR,Ibis,2kg,Persad's,Point Fortin,South,12.99
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Persad's,Point Fortin,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Persad's,Point Fortin,South,23.99
+71,TOILET SOAP,Refresh,3pk,Persad's,Point Fortin,South,15.99
+72,TOOTHPASTE,Colgate,170g,Persad's,Point Fortin,South,14.99
+73,DISHWASHING LIQUID,Squeezy,725ml,Persad's,Point Fortin,South,14.99
+74,SOAP POWDER,Breeze Multi Active,900g,Persad's,Point Fortin,South,25.99
+75,SOAP POWDER,Radiante,875g,Persad's,Point Fortin,South,13.49
+82,CORNED BEEF,Target,340g,Persad's,Point Fortin,South,15.99
+84,INSTANT CHOCOLATE,Nesquik,500g,Persad's,Point Fortin,South,NA
+91,MAUBY,Matouk’s,750ml,Persad's,Point Fortin,South,13.49
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Persad's,Point Fortin,South,11.99
+105,CORN FLAKES (Local),Sunshine,18 oz,Persad's,Point Fortin,South,25.99
+15,COOKING MARGARINE,Golden Ray,227g,SNSR,Princes Town,South,11.95
+18,TABLE MARGARINE,Flora,445g,SNSR,Princes Town,South,22.95
+19,EGGS,Large,1 Doz,SNSR,Princes Town,South,23.95
+20,LIQUID MILK (Full Cream),Nestle,1L,SNSR,Princes Town,South,13.95
+23,POWDERED MILK,Dairy Dairy,225g,SNSR,Princes Town,South,16.5
+33,FLOUR,Ibis,2kg,SNSR,Princes Town,South,13.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,SNSR,Princes Town,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,SNSR,Princes Town,South,24.95
+71,TOILET SOAP,Refresh,3pk,SNSR,Princes Town,South,14.95
+72,TOOTHPASTE,Colgate,170g,SNSR,Princes Town,South,NA
+73,DISHWASHING LIQUID,Squeezy,725ml,SNSR,Princes Town,South,NA
+74,SOAP POWDER,Breeze Multi Active,900g,SNSR,Princes Town,South,NA
+75,SOAP POWDER,Radiante,875g,SNSR,Princes Town,South,NA
+82,CORNED BEEF,Target,340g,SNSR,Princes Town,South,16.95
+84,INSTANT CHOCOLATE,Nesquik,500g,SNSR,Princes Town,South,NA
+91,MAUBY,Matouk’s,750ml,SNSR,Princes Town,South,NA
+95,ORANGE JUICE,Trinidad Citrus,19 oz,SNSR,Princes Town,South,NA
+105,CORN FLAKES (Local),Sunshine,18 oz,SNSR,Princes Town,South,25.95
+15,COOKING MARGARINE,Golden Ray,227g,Persad D' Food King,Princes Town,South,10.99
+18,TABLE MARGARINE,Flora,445g,Persad D' Food King,Princes Town,South,19.99
+19,EGGS,Large,1 Doz,Persad D' Food King,Princes Town,South,NA
+20,LIQUID MILK (Full Cream),Nestle,1L,Persad D' Food King,Princes Town,South,12.99
+23,POWDERED MILK,Dairy Dairy,225g,Persad D' Food King,Princes Town,South,16.5
+33,FLOUR,Ibis,2kg,Persad D' Food King,Princes Town,South,12.99
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Persad D' Food King,Princes Town,South,12.99
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Persad D' Food King,Princes Town,South,23.49
+71,TOILET SOAP,Refresh,3pk,Persad D' Food King,Princes Town,South,15.99
+72,TOOTHPASTE,Colgate,170g,Persad D' Food King,Princes Town,South,16.99
+73,DISHWASHING LIQUID,Squeezy,725ml,Persad D' Food King,Princes Town,South,14.99
+74,SOAP POWDER,Breeze Multi Active,900g,Persad D' Food King,Princes Town,South,31.49
+75,SOAP POWDER,Radiante,875g,Persad D' Food King,Princes Town,South,13.49
+82,CORNED BEEF,Target,340g,Persad D' Food King,Princes Town,South,15.99
+84,INSTANT CHOCOLATE,Nesquik,500g,Persad D' Food King,Princes Town,South,23.99
+91,MAUBY,Matouk’s,750ml,Persad D' Food King,Princes Town,South,13.49
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Persad D' Food King,Princes Town,South,11.99
+105,CORN FLAKES (Local),Sunshine,18 oz,Persad D' Food King,Princes Town,South,NA
+15,COOKING MARGARINE,Golden Ray,227g,S & S Persad,Rio Claro,South,11
+18,TABLE MARGARINE,Flora,445g,S & S Persad,Rio Claro,South,18
+19,EGGS,Large,1 Doz,S & S Persad,Rio Claro,South,20
+20,LIQUID MILK (Full Cream),Nestle,1L,S & S Persad,Rio Claro,South,11.5
+23,POWDERED MILK,Dairy Dairy,225g,S & S Persad,Rio Claro,South,16.5
+33,FLOUR,Ibis,2kg,S & S Persad,Rio Claro,South,11.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,S & S Persad,Rio Claro,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,S & S Persad,Rio Claro,South,23
+71,TOILET SOAP,Refresh,3pk,S & S Persad,Rio Claro,South,NA
+72,TOOTHPASTE,Colgate,170g,S & S Persad,Rio Claro,South,16
+73,DISHWASHING LIQUID,Squeezy,725ml,S & S Persad,Rio Claro,South,14
+74,SOAP POWDER,Breeze Multi Active,900g,S & S Persad,Rio Claro,South,25
+75,SOAP POWDER,Radiante,875g,S & S Persad,Rio Claro,South,14
+82,CORNED BEEF,Target,340g,S & S Persad,Rio Claro,South,15
+84,INSTANT CHOCOLATE,Nesquik,500g,S & S Persad,Rio Claro,South,22
+91,MAUBY,Matouk’s,750ml,S & S Persad,Rio Claro,South,13
+95,ORANGE JUICE,Trinidad Citrus,19 oz,S & S Persad,Rio Claro,South,12
+105,CORN FLAKES (Local),Sunshine,18 oz,S & S Persad,Rio Claro,South,26
+15,COOKING MARGARINE,Golden Ray,227g,Persad D' Food King,Rio Claro,South,10.99
+18,TABLE MARGARINE,Flora,445g,Persad D' Food King,Rio Claro,South,19.99
+19,EGGS,Large,1 Doz,Persad D' Food King,Rio Claro,South,20.99
+20,LIQUID MILK (Full Cream),Nestle,1L,Persad D' Food King,Rio Claro,South,12.99
+23,POWDERED MILK,Dairy Dairy,225g,Persad D' Food King,Rio Claro,South,16.5
+33,FLOUR,Ibis,2kg,Persad D' Food King,Rio Claro,South,12.99
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Persad D' Food King,Rio Claro,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Persad D' Food King,Rio Claro,South,23.49
+71,TOILET SOAP,Refresh,3pk,Persad D' Food King,Rio Claro,South,15.99
+72,TOOTHPASTE,Colgate,170g,Persad D' Food King,Rio Claro,South,16.99
+73,DISHWASHING LIQUID,Squeezy,725ml,Persad D' Food King,Rio Claro,South,14.99
+74,SOAP POWDER,Breeze Multi Active,900g,Persad D' Food King,Rio Claro,South,25.99
+75,SOAP POWDER,Radiante,875g,Persad D' Food King,Rio Claro,South,13.49
+82,CORNED BEEF,Target,340g,Persad D' Food King,Rio Claro,South,15.99
+84,INSTANT CHOCOLATE,Nesquik,500g,Persad D' Food King,Rio Claro,South,23.99
+91,MAUBY,Matouk’s,750ml,Persad D' Food King,Rio Claro,South,13.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Persad D' Food King,Rio Claro,South,11.99
+105,CORN FLAKES (Local),Sunshine,18 oz,Persad D' Food King,Rio Claro,South,25.99
+15,COOKING MARGARINE,Golden Ray,227g,S & S Persad,Mayaro,South,11
+18,TABLE MARGARINE,Flora,445g,S & S Persad,Mayaro,South,18
+19,EGGS,Large,1 Doz,S & S Persad,Mayaro,South,20
+20,LIQUID MILK (Full Cream),Nestle,1L,S & S Persad,Mayaro,South,11.5
+23,POWDERED MILK,Dairy Dairy,225g,S & S Persad,Mayaro,South,16.5
+33,FLOUR,Ibis,2kg,S & S Persad,Mayaro,South,11.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,S & S Persad,Mayaro,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,S & S Persad,Mayaro,South,23
+71,TOILET SOAP,Refresh,3pk,S & S Persad,Mayaro,South,14
+72,TOOTHPASTE,Colgate,170g,S & S Persad,Mayaro,South,16
+73,DISHWASHING LIQUID,Squeezy,725ml,S & S Persad,Mayaro,South,14
+74,SOAP POWDER,Breeze Multi Active,900g,S & S Persad,Mayaro,South,25
+75,SOAP POWDER,Radiante,875g,S & S Persad,Mayaro,South,14
+82,CORNED BEEF,Target,340g,S & S Persad,Mayaro,South,15
+84,INSTANT CHOCOLATE,Nesquik,500g,S & S Persad,Mayaro,South,22
+91,MAUBY,Matouk’s,750ml,S & S Persad,Mayaro,South,13
+95,ORANGE JUICE,Trinidad Citrus,19 oz,S & S Persad,Mayaro,South,12
+105,CORN FLAKES (Local),Sunshine,18 oz,S & S Persad,Mayaro,South,26
+15,COOKING MARGARINE,Golden Ray,227g,Persad D' Food King,Mayaro,South,10.99
+18,TABLE MARGARINE,Flora,445g,Persad D' Food King,Mayaro,South,21.49
+19,EGGS,Large,1 Doz,Persad D' Food King,Mayaro,South,NA
+20,LIQUID MILK (Full Cream),Nestle,1L,Persad D' Food King,Mayaro,South,9.99
+23,POWDERED MILK,Dairy Dairy,225g,Persad D' Food King,Mayaro,South,16.5
+33,FLOUR,Ibis,2kg,Persad D' Food King,Mayaro,South,12.99
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Persad D' Food King,Mayaro,South,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Persad D' Food King,Mayaro,South,23.49
+71,TOILET SOAP,Refresh,3pk,Persad D' Food King,Mayaro,South,15.99
+72,TOOTHPASTE,Colgate,170g,Persad D' Food King,Mayaro,South,16.99
+73,DISHWASHING LIQUID,Squeezy,725ml,Persad D' Food King,Mayaro,South,14.99
+74,SOAP POWDER,Breeze Multi Active,900g,Persad D' Food King,Mayaro,South,25.99
+75,SOAP POWDER,Radiante,875g,Persad D' Food King,Mayaro,South,13.49
+82,CORNED BEEF,Target,340g,Persad D' Food King,Mayaro,South,15.99
+84,INSTANT CHOCOLATE,Nesquik,500g,Persad D' Food King,Mayaro,South,23.99
+91,MAUBY,Matouk’s,750ml,Persad D' Food King,Mayaro,South,13.49
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Persad D' Food King,Mayaro,South,11.99
+105,CORN FLAKES (Local),Sunshine,18 oz,Persad D' Food King,Mayaro,South,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Viewport,Tobago,Tobago,11.45
+18,TABLE MARGARINE,Flora,445g,Viewport,Tobago,Tobago,NA
+19,EGGS,Large,1 Doz,Viewport,Tobago,Tobago,24
+20,LIQUID MILK (Full Cream),Nestle,1L,Viewport,Tobago,Tobago,13
+23,POWDERED MILK,Dairy Dairy,225g,Viewport,Tobago,Tobago,NA
+33,FLOUR,Ibis,2kg,Viewport,Tobago,Tobago,14.2
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Viewport,Tobago,Tobago,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Viewport,Tobago,Tobago,23.45
+71,TOILET SOAP,Refresh,3pk,Viewport,Tobago,Tobago,14.1
+72,TOOTHPASTE,Colgate,170g,Viewport,Tobago,Tobago,NA
+73,DISHWASHING LIQUID,Squeezy,725ml,Viewport,Tobago,Tobago,13.65
+74,SOAP POWDER,Breeze Multi Active,900g,Viewport,Tobago,Tobago,27.75
+75,SOAP POWDER,Radiante,875g,Viewport,Tobago,Tobago,22.5
+82,CORNED BEEF,Target,340g,Viewport,Tobago,Tobago,14.55
+84,INSTANT CHOCOLATE,Nesquik,500g,Viewport,Tobago,Tobago,22.8
+91,MAUBY,Matouk’s,750ml,Viewport,Tobago,Tobago,14.35
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Viewport,Tobago,Tobago,11.9
+105,CORN FLAKES (Local),Sunshine,18 oz,Viewport,Tobago,Tobago,24.95
+15,COOKING MARGARINE,Golden Ray,227g,Penny Savers,Tobago,Tobago,11
+18,TABLE MARGARINE,Flora,445g,Penny Savers,Tobago,Tobago,20.95
+19,EGGS,Large,1 Doz,Penny Savers,Tobago,Tobago,24
+20,LIQUID MILK (Full Cream),Nestle,1L,Penny Savers,Tobago,Tobago,12.3
+23,POWDERED MILK,Dairy Dairy,225g,Penny Savers,Tobago,Tobago,16.2
+33,FLOUR,Ibis,2kg,Penny Savers,Tobago,Tobago,13.6
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Penny Savers,Tobago,Tobago,12.5
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Penny Savers,Tobago,Tobago,23.45
+71,TOILET SOAP,Refresh,3pk,Penny Savers,Tobago,Tobago,12.95
+72,TOOTHPASTE,Colgate,170g,Penny Savers,Tobago,Tobago,16.15
+73,DISHWASHING LIQUID,Squeezy,725ml,Penny Savers,Tobago,Tobago,14.35
+74,SOAP POWDER,Breeze Multi Active,900g,Penny Savers,Tobago,Tobago,23.9
+75,SOAP POWDER,Radiante,875g,Penny Savers,Tobago,Tobago,13.95
+82,CORNED BEEF,Target,340g,Penny Savers,Tobago,Tobago,15.3
+84,INSTANT CHOCOLATE,Nesquik,500g,Penny Savers,Tobago,Tobago,22.3
+91,MAUBY,Matouk’s,750ml,Penny Savers,Tobago,Tobago,13.2
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Penny Savers,Tobago,Tobago,10.75
+105,CORN FLAKES (Local),Sunshine,18 oz,Penny Savers,Tobago,Tobago,23.9
+15,COOKING MARGARINE,Golden Ray,227g,Coss Cutters,Tobago,Tobago,9.95
+18,TABLE MARGARINE,Flora,445g,Coss Cutters,Tobago,Tobago,18.45
+19,EGGS,Large,1 Doz,Coss Cutters,Tobago,Tobago,20
+20,LIQUID MILK (Full Cream),Nestle,1L,Coss Cutters,Tobago,Tobago,13
+23,POWDERED MILK,Dairy Dairy,225g,Coss Cutters,Tobago,Tobago,16.5
+33,FLOUR,Ibis,2kg,Coss Cutters,Tobago,Tobago,13.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Coss Cutters,Tobago,Tobago,12.5
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Coss Cutters,Tobago,Tobago,23.5
+71,TOILET SOAP,Refresh,3pk,Coss Cutters,Tobago,Tobago,13.75
+72,TOOTHPASTE,Colgate,170g,Coss Cutters,Tobago,Tobago,15.5
+73,DISHWASHING LIQUID,Squeezy,725ml,Coss Cutters,Tobago,Tobago,13.45
+74,SOAP POWDER,Breeze Multi Active,900g,Coss Cutters,Tobago,Tobago,27
+75,SOAP POWDER,Radiante,875g,Coss Cutters,Tobago,Tobago,15
+82,CORNED BEEF,Target,340g,Coss Cutters,Tobago,Tobago,14.5
+84,INSTANT CHOCOLATE,Nesquik,500g,Coss Cutters,Tobago,Tobago,23.5
+91,MAUBY,Matouk’s,750ml,Coss Cutters,Tobago,Tobago,12.25
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Coss Cutters,Tobago,Tobago,13.5
+105,CORN FLAKES (Local),Sunshine,18 oz,Coss Cutters,Tobago,Tobago,26
+15,COOKING MARGARINE,Golden Ray,227g,Island Shoppers,Tobago,Tobago,11.5
+18,TABLE MARGARINE,Flora,445g,Island Shoppers,Tobago,Tobago,NA
+19,EGGS,Large,1 Doz,Island Shoppers,Tobago,Tobago,25
+20,LIQUID MILK (Full Cream),Nestle,1L,Island Shoppers,Tobago,Tobago,13
+23,POWDERED MILK,Dairy Dairy,225g,Island Shoppers,Tobago,Tobago,17
+33,FLOUR,Ibis,2kg,Island Shoppers,Tobago,Tobago,14
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Island Shoppers,Tobago,Tobago,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Island Shoppers,Tobago,Tobago,23.5
+71,TOILET SOAP,Refresh,3pk,Island Shoppers,Tobago,Tobago,15
+72,TOOTHPASTE,Colgate,170g,Island Shoppers,Tobago,Tobago,18.5
+73,DISHWASHING LIQUID,Squeezy,725ml,Island Shoppers,Tobago,Tobago,16
+74,SOAP POWDER,Breeze Multi Active,900g,Island Shoppers,Tobago,Tobago,30
+75,SOAP POWDER,Radiante,875g,Island Shoppers,Tobago,Tobago,NA
+82,CORNED BEEF,Target,340g,Island Shoppers,Tobago,Tobago,NA
+84,INSTANT CHOCOLATE,Nesquik,500g,Island Shoppers,Tobago,Tobago,23.5
+91,MAUBY,Matouk’s,750ml,Island Shoppers,Tobago,Tobago,NA
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Island Shoppers,Tobago,Tobago,NA
+105,CORN FLAKES (Local),Sunshine,18 oz,Island Shoppers,Tobago,Tobago,26
+15,COOKING MARGARINE,Golden Ray,227g,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,11.95
+18,TABLE MARGARINE,Flora,445g,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,21.95
+19,EGGS,Large,1 Doz,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,20.95
+20,LIQUID MILK (Full Cream),Nestle,1L,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,13.55
+23,POWDERED MILK,Dairy Dairy,225g,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,16.5
+33,FLOUR,Ibis,2kg,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,12.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,20.99
+71,TOILET SOAP,Refresh,3pk,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,14.95
+72,TOOTHPASTE,Colgate,170g,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,16.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,14.95
+74,SOAP POWDER,Breeze Multi Active,900g,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,25.95
+75,SOAP POWDER,Radiante,875g,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,14.95
+82,CORNED BEEF,Target,340g,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,14.95
+84,INSTANT CHOCOLATE,Nesquik,500g,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,23.75
+91,MAUBY,Matouk’s,750ml,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,12.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,11.95
+105,CORN FLAKES (Local),Sunshine,18 oz,Jesus Christ Makes the Difference Supermarket,Tobago,Tobago,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Caribbean Corner Stores,Tobago,Tobago,NA
+18,TABLE MARGARINE,Flora,445g,Caribbean Corner Stores,Tobago,Tobago,25
+19,EGGS,Large,1 Doz,Caribbean Corner Stores,Tobago,Tobago,25
+20,LIQUID MILK (Full Cream),Nestle,1L,Caribbean Corner Stores,Tobago,Tobago,14.5
+23,POWDERED MILK,Dairy Dairy,225g,Caribbean Corner Stores,Tobago,Tobago,18.5
+33,FLOUR,Ibis,2kg,Caribbean Corner Stores,Tobago,Tobago,15
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Caribbean Corner Stores,Tobago,Tobago,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Caribbean Corner Stores,Tobago,Tobago,25
+71,TOILET SOAP,Refresh,3pk,Caribbean Corner Stores,Tobago,Tobago,18
+72,TOOTHPASTE,Colgate,170g,Caribbean Corner Stores,Tobago,Tobago,17.5
+73,DISHWASHING LIQUID,Squeezy,725ml,Caribbean Corner Stores,Tobago,Tobago,16
+74,SOAP POWDER,Breeze Multi Active,900g,Caribbean Corner Stores,Tobago,Tobago,32
+75,SOAP POWDER,Radiante,875g,Caribbean Corner Stores,Tobago,Tobago,16
+82,CORNED BEEF,Target,340g,Caribbean Corner Stores,Tobago,Tobago,16.75
+84,INSTANT CHOCOLATE,Nesquik,500g,Caribbean Corner Stores,Tobago,Tobago,NA
+91,MAUBY,Matouk’s,750ml,Caribbean Corner Stores,Tobago,Tobago,14.75
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Caribbean Corner Stores,Tobago,Tobago,14
+105,CORN FLAKES (Local),Sunshine,18 oz,Caribbean Corner Stores,Tobago,Tobago,26
+15,COOKING MARGARINE,Golden Ray,227g,Bayview,Tobago,Tobago,NA
+18,TABLE MARGARINE,Flora,445g,Bayview,Tobago,Tobago,NA
+19,EGGS,Large,1 Doz,Bayview,Tobago,Tobago,24
+20,LIQUID MILK (Full Cream),Nestle,1L,Bayview,Tobago,Tobago,NA
+23,POWDERED MILK,Dairy Dairy,225g,Bayview,Tobago,Tobago,NA
+33,FLOUR,Ibis,2kg,Bayview,Tobago,Tobago,NA
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Bayview,Tobago,Tobago,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Bayview,Tobago,Tobago,NA
+71,TOILET SOAP,Refresh,3pk,Bayview,Tobago,Tobago,NA
+72,TOOTHPASTE,Colgate,170g,Bayview,Tobago,Tobago,18.75
+73,DISHWASHING LIQUID,Squeezy,725ml,Bayview,Tobago,Tobago,NA
+74,SOAP POWDER,Breeze Multi Active,900g,Bayview,Tobago,Tobago,NA
+75,SOAP POWDER,Radiante,875g,Bayview,Tobago,Tobago,NA
+82,CORNED BEEF,Target,340g,Bayview,Tobago,Tobago,NA
+84,INSTANT CHOCOLATE,Nesquik,500g,Bayview,Tobago,Tobago,NA
+91,MAUBY,Matouk’s,750ml,Bayview,Tobago,Tobago,NA
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Bayview,Tobago,Tobago,14.5
+105,CORN FLAKES (Local),Sunshine,18 oz,Bayview,Tobago,Tobago,26
+15,COOKING MARGARINE,Golden Ray,227g,Pablo,Tobago,Tobago,12.5
+18,TABLE MARGARINE,Flora,445g,Pablo,Tobago,Tobago,NA
+19,EGGS,Large,1 Doz,Pablo,Tobago,Tobago,NA
+20,LIQUID MILK (Full Cream),Nestle,1L,Pablo,Tobago,Tobago,12.95
+23,POWDERED MILK,Dairy Dairy,225g,Pablo,Tobago,Tobago,16.5
+33,FLOUR,Ibis,2kg,Pablo,Tobago,Tobago,15.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Pablo,Tobago,Tobago,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Pablo,Tobago,Tobago,23.75
+71,TOILET SOAP,Refresh,3pk,Pablo,Tobago,Tobago,17.5
+72,TOOTHPASTE,Colgate,170g,Pablo,Tobago,Tobago,18.5
+73,DISHWASHING LIQUID,Squeezy,725ml,Pablo,Tobago,Tobago,16.75
+74,SOAP POWDER,Breeze Multi Active,900g,Pablo,Tobago,Tobago,29.25
+75,SOAP POWDER,Radiante,875g,Pablo,Tobago,Tobago,15.75
+82,CORNED BEEF,Target,340g,Pablo,Tobago,Tobago,17.5
+84,INSTANT CHOCOLATE,Nesquik,500g,Pablo,Tobago,Tobago,24.75
+91,MAUBY,Matouk’s,750ml,Pablo,Tobago,Tobago,16.95
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Pablo,Tobago,Tobago,14
+105,CORN FLAKES (Local),Sunshine,18 oz,Pablo,Tobago,Tobago,27.5
+15,COOKING MARGARINE,Golden Ray,227g,Tru Valu,Diego Martin,West,11
+18,TABLE MARGARINE,Flora,445g,Tru Valu,Diego Martin,West,21
+19,EGGS,Large,1 Doz,Tru Valu,Diego Martin,West,19
+20,LIQUID MILK (Full Cream),Nestle,1L,Tru Valu,Diego Martin,West,13.5
+23,POWDERED MILK,Dairy Dairy,225g,Tru Valu,Diego Martin,West,NA
+33,FLOUR,Ibis,2kg,Tru Valu,Diego Martin,West,12.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Tru Valu,Diego Martin,West,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Tru Valu,Diego Martin,West,23
+71,TOILET SOAP,Refresh,3pk,Tru Valu,Diego Martin,West,16.5
+72,TOOTHPASTE,Colgate,170g,Tru Valu,Diego Martin,West,16.75
+73,DISHWASHING LIQUID,Squeezy,725ml,Tru Valu,Diego Martin,West,16.5
+74,SOAP POWDER,Breeze Multi Active,900g,Tru Valu,Diego Martin,West,25.5
+75,SOAP POWDER,Radiante,875g,Tru Valu,Diego Martin,West,13.75
+82,CORNED BEEF,Target,340g,Tru Valu,Diego Martin,West,16
+84,INSTANT CHOCOLATE,Nesquik,500g,Tru Valu,Diego Martin,West,23.5
+91,MAUBY,Matouk’s,750ml,Tru Valu,Diego Martin,West,13.5
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Tru Valu,Diego Martin,West,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Tru Valu,Diego Martin,West,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Massy Stores,Diego Martin,West,11.2
+18,TABLE MARGARINE,Flora,445g,Massy Stores,Diego Martin,West,21.3
+19,EGGS,Large,1 Doz,Massy Stores,Diego Martin,West,20.5
+20,LIQUID MILK (Full Cream),Nestle,1L,Massy Stores,Diego Martin,West,13
+23,POWDERED MILK,Dairy Dairy,225g,Massy Stores,Diego Martin,West,16.5
+33,FLOUR,Ibis,2kg,Massy Stores,Diego Martin,West,13
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Massy Stores,Diego Martin,West,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Massy Stores,Diego Martin,West,23
+71,TOILET SOAP,Refresh,3pk,Massy Stores,Diego Martin,West,14.95
+72,TOOTHPASTE,Colgate,170g,Massy Stores,Diego Martin,West,18.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Massy Stores,Diego Martin,West,15.95
+74,SOAP POWDER,Breeze Multi Active,900g,Massy Stores,Diego Martin,West,24.95
+75,SOAP POWDER,Radiante,875g,Massy Stores,Diego Martin,West,13.5
+82,CORNED BEEF,Target,340g,Massy Stores,Diego Martin,West,16.9
+84,INSTANT CHOCOLATE,Nesquik,500g,Massy Stores,Diego Martin,West,24
+91,MAUBY,Matouk’s,750ml,Massy Stores,Diego Martin,West,13.49
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Massy Stores,Diego Martin,West,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Massy Stores,Diego Martin,West,25.99
+15,COOKING MARGARINE,Golden Ray,227g,Tru Valu Long Circular,St. James,West,11
+18,TABLE MARGARINE,Flora,445g,Tru Valu Long Circular,St. James,West,21
+19,EGGS,Large,1 Doz,Tru Valu Long Circular,St. James,West,21.65
+20,LIQUID MILK (Full Cream),Nestle,1L,Tru Valu Long Circular,St. James,West,13.5
+23,POWDERED MILK,Dairy Dairy,225g,Tru Valu Long Circular,St. James,West,NA
+33,FLOUR,Ibis,2kg,Tru Valu Long Circular,St. James,West,12.95
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,Tru Valu Long Circular,St. James,West,13
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,Tru Valu Long Circular,St. James,West,NA
+71,TOILET SOAP,Refresh,3pk,Tru Valu Long Circular,St. James,West,14.95
+72,TOOTHPASTE,Colgate,170g,Tru Valu Long Circular,St. James,West,16.95
+73,DISHWASHING LIQUID,Squeezy,725ml,Tru Valu Long Circular,St. James,West,16.5
+74,SOAP POWDER,Breeze Multi Active,900g,Tru Valu Long Circular,St. James,West,25.5
+75,SOAP POWDER,Radiante,875g,Tru Valu Long Circular,St. James,West,13.75
+82,CORNED BEEF,Target,340g,Tru Valu Long Circular,St. James,West,16
+84,INSTANT CHOCOLATE,Nesquik,500g,Tru Valu Long Circular,St. James,West,23.5
+91,MAUBY,Matouk’s,750ml,Tru Valu Long Circular,St. James,West,13.5
+95,ORANGE JUICE,Trinidad Citrus,19 oz,Tru Valu Long Circular,St. James,West,12
+105,CORN FLAKES (Local),Sunshine,18 oz,Tru Valu Long Circular,St. James,West,25.99
+15,COOKING MARGARINE,Golden Ray,227g,John's,St. James,West,10.95
+18,TABLE MARGARINE,Flora,445g,John's,St. James,West,21.5
+19,EGGS,Large,1 Doz,John's,St. James,West,21
+20,LIQUID MILK (Full Cream),Nestle,1L,John's,St. James,West,12.75
+23,POWDERED MILK,Dairy Dairy,225g,John's,St. James,West,16.5
+33,FLOUR,Ibis,2kg,John's,St. James,West,12.5
+41,BISCUITS (Unsweetened),Crix - Original,9 oz,John's,St. James,West,12.5
+69,INFANT CEREAL,Nestle – Wheat & Honey,270g,John's,St. James,West,22.99
+71,TOILET SOAP,Refresh,3pk,John's,St. James,West,15.75
+72,TOOTHPASTE,Colgate,170g,John's,St. James,West,16.75
+73,DISHWASHING LIQUID,Squeezy,725ml,John's,St. James,West,15.5
+74,SOAP POWDER,Breeze Multi Active,900g,John's,St. James,West,24.95
+75,SOAP POWDER,Radiante,875g,John's,St. James,West,13.75
+82,CORNED BEEF,Target,340g,John's,St. James,West,14.95
+84,INSTANT CHOCOLATE,Nesquik,500g,John's,St. James,West,22.95
+91,MAUBY,Matouk’s,750ml,John's,St. James,West,12.75
+95,ORANGE JUICE,Trinidad Citrus,19 oz,John's,St. James,West,11.5
+105,CORN FLAKES (Local),Sunshine,18 oz,John's,St. James,West,24.99
