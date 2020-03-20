@@ -1,0 +1,562 @@
+Runs,Inning,Notout,DNB,Opp,Ground,Start Date,Match
+11,1,FALSE,FALSE,Pakistan,Karachi,9-Nov-90,ODI # 639
+44,1,FALSE,FALSE,Pakistan,Lahore,6-Dec-90,Test # 1158
+5,2,FALSE,FALSE,Pakistan,Lahore,6-Dec-90,Test # 1158
+23,1,FALSE,FALSE,England,Lord's,27-May-91,ODI # 678
+5,1,FALSE,FALSE,Pakistan,Sharjah,17-Oct-91,ODI # 679
+45,1,FALSE,FALSE,India,Sharjah,19-Oct-91,ODI # 681
+0,1,FALSE,FALSE,Pakistan,Sharjah,21-Oct-91,ODI # 682
+54,1,FALSE,FALSE,Pakistan,Karachi,20-Nov-91,ODI # 689
+18,1,FALSE,FALSE,Pakistan,Lahore,22-Nov-91,ODI # 690
+45,1,FALSE,FALSE,Pakistan,Faisalabad,24-Nov-91,ODI # 691
+11,1,FALSE,FALSE,Australia,Melbourne,12-Dec-91,ODI # 695
+29,1,FALSE,FALSE,India,Adelaide,14-Dec-91,ODI # 696
+19,1,FALSE,FALSE,Australia,Sydney,18-Dec-91,ODI # 698
+14,1,FALSE,FALSE,India,Perth,6-Dec-91,ODI # 692
+4,1,FALSE,FALSE,India,Brisbane,11-Jan-92,ODI # 702
+69,1,FALSE,FALSE,Australia,Brisbane,12-Jan-92,ODI # 703
+11,1,FALSE,FALSE,India,Melbourne,16-Jan-92,ODI # 707
+22,1,FALSE,FALSE,Australia,Melbourne,9-Jan-92,ODI # 699
+88,1,TRUE,FALSE,Pakistan,Melbourne,23-Feb-92,ODI # 717
+0,1,FALSE,FALSE,England,Melbourne,27-Feb-92,ODI # 721
+72,1,FALSE,FALSE,Zimbabwe,Brisbane,29-Feb-92,ODI # 724
+41,1,FALSE,FALSE,India,Wellington,10-Mar-92,ODI # 737
+1,1,FALSE,FALSE,Sri Lanka,Berri,13-Mar-92,ODI # 742
+70,1,FALSE,FALSE,Australia,Melbourne,18-Mar-92,ODI # 749
+9,1,FALSE,FALSE,South Africa,Christchurch,5-Mar-92,ODI # 730
+52,1,FALSE,FALSE,New Zealand,Auckland,8-Mar-92,ODI # 734
+86,1,TRUE,FALSE,South Africa,Port of Spain,11-Apr-92,ODI # 754
+35,1,FALSE,FALSE,South Africa,Port of Spain,12-Apr-92,ODI # 755
+17,1,FALSE,FALSE,South Africa,Bridgetown,18-Apr-92,Test # 1188
+64,2,FALSE,FALSE,South Africa,Bridgetown,18-Apr-92,Test # 1188
+50,1,FALSE,FALSE,South Africa,Kingston,7-Apr-92,ODI # 753
+58,1,FALSE,FALSE,Australia,Brisbane,27-Nov-92,Test # 1202
+0,2,FALSE,FALSE,Australia,Brisbane,27-Nov-92,Test # 1202
+15,1,FALSE,FALSE,Pakistan,Adelaide,12-Dec-92,ODI # 775
+74,1,FALSE,FALSE,Australia,Melbourne,15-Dec-92,ODI # 780
+3,1,FALSE,FALSE,Pakistan,Sydney,17-Dec-92,ODI # 782
+52,1,FALSE,FALSE,Australia,Melbourne,26-Dec-92,Test # 1205
+4,2,FALSE,FALSE,Australia,Melbourne,26-Dec-92,Test # 1205
+59,1,FALSE,FALSE,Pakistan,Perth,4-Dec-92,ODI # 767
+29,1,FALSE,FALSE,Australia,Perth,6-Dec-92,ODI # 769
+4,1,FALSE,FALSE,Australia,Sydney,8-Dec-92,ODI # 771
+10,1,FALSE,FALSE,Australia,Brisbane,10-Jan-93,ODI # 789
+67,1,FALSE,FALSE,Australia,Sydney,16-Jan-93,ODI # 792
+60,1,FALSE,FALSE,Australia,Melbourne,18-Jan-93,ODI # 793
+277,1,FALSE,FALSE,Australia,Sydney,2-Jan-93,Test # 1208
+NA,2,NA,FALSE,Australia,Sydney,2-Jan-93,Test # 1208
+52,1,FALSE,FALSE,Australia,Adelaide,23-Jan-93,Test # 1210
+7,2,FALSE,FALSE,Australia,Adelaide,23-Jan-93,Test # 1210
+16,1,FALSE,FALSE,Australia,Perth,30-Jan-93,Test # 1212
+NA,2,NA,FALSE,Australia,Perth,30-Jan-93,Test # 1212
+10,1,FALSE,FALSE,Pakistan,Brisbane,9-Jan-93,ODI # 788
+13,1,FALSE,FALSE,South Africa,Port Elizabeth,11-Feb-93,ODI # 801
+0,1,FALSE,FALSE,Pakistan,Johannesburg,13-Feb-93,ODI # 802
+14,1,FALSE,FALSE,South Africa,Cape Town,17-Feb-93,ODI # 804
+128,1,FALSE,FALSE,Pakistan,Durban,19-Feb-93,ODI # 805
+111,1,TRUE,FALSE,South Africa,Bloemfontein,23-Feb-93,ODI # 807
+26,1,TRUE,FALSE,Pakistan,Cape Town,25-Feb-93,ODI # 808
+49,1,FALSE,FALSE,Pakistan,Johannesburg,27-Feb-93,ODI # 810
+114,1,FALSE,FALSE,Pakistan,Kingston,23-Mar-93,ODI # 821
+95,1,TRUE,FALSE,Pakistan,Port of Spain,26-Mar-93,ODI # 824
+5,1,FALSE,FALSE,Pakistan,Port of Spain,27-Mar-93,ODI # 826
+5,1,FALSE,FALSE,Pakistan,Kingstown,30-Mar-93,ODI # 828
+6,1,FALSE,FALSE,Pakistan,Port of Spain,16-Apr-93,Test # 1220
+96,2,FALSE,FALSE,Pakistan,Port of Spain,16-Apr-93,Test # 1220
+51,1,FALSE,FALSE,Pakistan,Bridgetown,23-Apr-93,Test # 1221
+NA,2,FALSE,TRUE,Pakistan,Bridgetown,23-Apr-93,Test # 1221
+15,1,FALSE,FALSE,Pakistan,Georgetown,3-Apr-93,ODI # 829
+44,1,FALSE,FALSE,Pakistan,St John's,1-May-93,Test # 1222
+19,2,FALSE,FALSE,Pakistan,St John's,1-May-93,Test # 1222
+5,1,FALSE,FALSE,Sri Lanka,Sharjah,28-Oct-93,ODI # 839
+14,1,FALSE,FALSE,Pakistan,Sharjah,29-Oct-93,ODI # 840
+14,1,FALSE,FALSE,Pakistan,Sharjah,1-Nov-93,ODI # 842
+7,1,FALSE,FALSE,South Africa,Mumbai (BS),14-Nov-93,ODI # 849
+23,1,FALSE,FALSE,India,Ahmedabad,16-Nov-93,ODI # 851
+4,1,FALSE,FALSE,Zimbabwe,Hyderabad (Deccan),21-Nov-93,ODI # 854
+82,1,FALSE,FALSE,Sri Lanka,Kolkata,25-Nov-93,ODI # 857
+33,1,FALSE,FALSE,India,Kolkata,27-Nov-93,ODI # 858
+42,1,FALSE,FALSE,Sri Lanka,Sharjah,3-Nov-93,ODI # 844
+153,1,FALSE,FALSE,Pakistan,Sharjah,5-Nov-93,ODI # 845
+67,1,FALSE,FALSE,Sri Lanka,Mumbai,9-Nov-93,ODI # 847
+89,1,FALSE,FALSE,Sri Lanka,Colombo (PSS),1-Dec-93,ODI # 859
+65,1,FALSE,FALSE,Sri Lanka,Colombo (RPS),16-Dec-93,ODI # 864
+29,1,FALSE,FALSE,Sri Lanka,Colombo (SSC),18-Dec-93,ODI # 866
+18,1,FALSE,FALSE,Sri Lanka,Moratuwa,8-Dec-93,Test # 1239
+NA,2,NA,FALSE,Sri Lanka,Moratuwa,8-Dec-93,Test # 1239
+9,1,FALSE,FALSE,England,Bridgetown,16-Feb-94,ODI # 880
+83,1,FALSE,FALSE,England,Kingston,19-Feb-94,Test # 1250
+28,2,FALSE,FALSE,England,Kingston,19-Feb-94,Test # 1250
+8,1,FALSE,FALSE,England,Kingston,26-Feb-94,ODI # 887
+167,1,FALSE,FALSE,England,Georgetown,17-Mar-94,Test # 1254
+NA,2,NA,FALSE,England,Georgetown,17-Mar-94,Test # 1254
+60,1,FALSE,FALSE,England,Kingstown,2-Mar-94,ODI # 888
+43,1,FALSE,FALSE,England,Port of Spain,25-Mar-94,Test # 1257
+12,2,FALSE,FALSE,England,Port of Spain,25-Mar-94,Test # 1257
+19,1,FALSE,FALSE,England,Port of Spain,5-Mar-94,ODI # 890
+16,1,FALSE,FALSE,England,Port of Spain,6-Mar-94,ODI # 892
+375,1,FALSE,FALSE,England,St John's,16-Apr-94,Test # 1259
+NA,2,FALSE,TRUE,England,St John's,16-Apr-94,Test # 1259
+26,1,FALSE,FALSE,England,Bridgetown,8-Apr-94,Test # 1258
+64,2,FALSE,FALSE,England,Bridgetown,8-Apr-94,Test # 1258
+10,1,FALSE,FALSE,India,Faridabad,17-Oct-94,ODI # 931
+6,1,FALSE,FALSE,India,Mumbai,20-Oct-94,ODI # 933
+74,1,FALSE,FALSE,India,Chennai,23-Oct-94,ODI # 936
+32,1,FALSE,FALSE,New Zealand,Margao,26-Oct-94,ODI # 938
+69,1,FALSE,FALSE,New Zealand,Guwahati,1-Nov-94,ODI # 943
+47,1,FALSE,FALSE,India,Jaipur,11-Nov-94,ODI # 951
+14,1,FALSE,FALSE,India,Mumbai,18-Nov-94,Test # 1274
+0,2,FALSE,FALSE,India,Mumbai,18-Nov-94,Test # 1274
+1,1,FALSE,FALSE,India,Kolkata,5-Nov-94,ODI # 947
+39,1,FALSE,FALSE,India,Visakhapatnam,7-Nov-94,ODI # 949
+89,1,FALSE,FALSE,India,Cuttack,9-Nov-94,ODI # 950
+50,1,FALSE,FALSE,India,Nagpur,1-Dec-94,Test # 1277
+3,2,FALSE,FALSE,India,Nagpur,1-Dec-94,Test # 1277
+40,1,FALSE,FALSE,India,Mohali,10-Dec-94,Test # 1278
+91,2,FALSE,FALSE,India,Mohali,10-Dec-94,Test # 1278
+55,1,TRUE,FALSE,New Zealand,Auckland,22-Jan-95,ODI # 972
+72,1,FALSE,FALSE,New Zealand,Wellington,25-Jan-95,ODI # 973
+34,1,TRUE,FALSE,New Zealand,Christchurch,28-Jan-95,ODI # 974
+147,1,FALSE,FALSE,New Zealand,Wellington,10-Feb-95,Test # 1289
+NA,2,NA,FALSE,New Zealand,Wellington,10-Feb-95,Test # 1289
+2,1,FALSE,FALSE,New Zealand,Christchurch,3-Feb-95,Test # 1286
+NA,2,NA,FALSE,New Zealand,Christchurch,3-Feb-95,Test # 1286
+62,1,FALSE,FALSE,Australia,Port of Spain,11-Mar-95,ODI # 986
+139,1,FALSE,FALSE,Australia,Port of Spain,12-Mar-95,ODI # 987
+NA,1,FALSE,TRUE,Australia,Kingstown,15-Mar-95,ODI # 988
+65,1,FALSE,FALSE,Australia,Bridgetown,31-Mar-95,Test # 1294
+9,2,FALSE,FALSE,Australia,Bridgetown,31-Mar-95,Test # 1294
+55,1,FALSE,FALSE,Australia,Bridgetown,8-Mar-95,ODI # 985
+24,1,FALSE,FALSE,Australia,Port of Spain,21-Apr-95,Test # 1296
+14,2,TRUE,FALSE,Australia,Port of Spain,21-Apr-95,Test # 1296
+65,1,FALSE,FALSE,Australia,Kingston,29-Apr-95,Test # 1297
+0,2,FALSE,FALSE,Australia,Kingston,29-Apr-95,Test # 1297
+88,1,FALSE,FALSE,Australia,St John's,8-Apr-95,Test # 1295
+43,2,FALSE,FALSE,Australia,St John's,8-Apr-95,Test # 1295
+70,1,FALSE,FALSE,England,Nottingham,24-May-95,ODI # 1000
+39,1,FALSE,FALSE,England,The Oval,26-May-95,ODI # 1001
+11,1,FALSE,FALSE,England,Lord's,28-May-95,ODI # 1002
+6,1,FALSE,FALSE,England,Lord's,22-Jun-95,Test # 1299
+54,2,FALSE,FALSE,England,Lord's,22-Jun-95,Test # 1299
+53,1,FALSE,FALSE,England,Leeds,8-Jun-95,Test # 1298
+48,2,TRUE,FALSE,England,Leeds,8-Jun-95,Test # 1298
+87,1,FALSE,FALSE,England,Manchester,27-Jul-95,Test # 1301
+145,2,FALSE,FALSE,England,Manchester,27-Jul-95,Test # 1301
+21,1,FALSE,FALSE,England,Birmingham,6-Jul-95,Test # 1300
+NA,2,NA,FALSE,England,Birmingham,6-Jul-95,Test # 1300
+152,1,FALSE,FALSE,England,Nottingham,10-Aug-95,Test # 1302
+20,2,FALSE,FALSE,England,Nottingham,10-Aug-95,Test # 1302
+179,1,FALSE,FALSE,England,The Oval,24-Aug-95,Test # 1303
+NA,2,NA,FALSE,England,The Oval,24-Aug-95,Test # 1303
+19,1,FALSE,FALSE,Sri Lanka,Sharjah,11-Oct-95,ODI # 1006
+21,1,FALSE,FALSE,Pakistan,Sharjah,13-Oct-95,ODI # 1008
+52,1,FALSE,FALSE,Pakistan,Sharjah,15-Oct-95,ODI # 1009
+169,1,FALSE,FALSE,Sri Lanka,Sharjah,16-Oct-95,ODI # 1010
+8,1,FALSE,FALSE,Sri Lanka,Sharjah,20-Oct-95,ODI # 1012
+43,1,TRUE,FALSE,Zimbabwe,Hyderabad (Deccan),16-Feb-96,ODI # 1050
+2,1,FALSE,FALSE,India,Gwalior,21-Feb-96,ODI # 1056
+8,1,FALSE,FALSE,Kenya,Pune,29-Feb-96,ODI # 1066
+111,1,FALSE,FALSE,South Africa,Karachi,11-Mar-96,ODI # 1079
+45,1,FALSE,FALSE,Australia,Mohali,14-Mar-96,ODI # 1082
+12,1,FALSE,FALSE,New Zealand,Kingston,26-Mar-96,ODI # 1084
+11,1,FALSE,FALSE,New Zealand,Port of Spain,29-Mar-96,ODI # 1085
+146,1,TRUE,FALSE,New Zealand,Port of Spain,30-Mar-96,ODI # 1086
+60,1,FALSE,FALSE,Australia,Jaipur,4-Mar-96,ODI # 1072
+71,1,FALSE,FALSE,Sri Lanka,Port of Spain,13-Apr-96,ODI # 1096
+35,1,FALSE,FALSE,New Zealand,Bridgetown,19-Apr-96,Test # 1325
+NA,2,FALSE,TRUE,New Zealand,Bridgetown,19-Apr-96,Test # 1325
+40,1,FALSE,FALSE,New Zealand,St John's,27-Apr-96,Test # 1326
+74,2,FALSE,FALSE,New Zealand,St John's,27-Apr-96,Test # 1326
+17,1,FALSE,FALSE,New Zealand,Georgetown,3-Apr-96,ODI # 1090
+104,1,FALSE,FALSE,New Zealand,Kingstown,6-Apr-96,ODI # 1092
+26,1,FALSE,FALSE,Australia,Brisbane,22-Nov-96,Test # 1340
+44,2,FALSE,FALSE,Australia,Brisbane,22-Nov-96,Test # 1340
+2,1,FALSE,FALSE,Australia,Sydney,29-Nov-96,Test # 1343
+1,2,FALSE,FALSE,Australia,Sydney,29-Nov-96,Test # 1343
+31,1,TRUE,FALSE,Pakistan,Adelaide,17-Dec-96,ODI # 1154
+2,1,FALSE,FALSE,Australia,Melbourne,26-Dec-96,Test # 1346
+2,2,FALSE,FALSE,Australia,Melbourne,26-Dec-96,Test # 1346
+5,1,FALSE,FALSE,Australia,Melbourne,6-Dec-96,ODI # 1147
+26,1,FALSE,FALSE,Australia,Sydney,8-Dec-96,ODI # 1149
+103,1,TRUE,FALSE,Pakistan,Perth,10-Jan-97,ODI # 1161
+90,1,FALSE,FALSE,Australia,Perth,12-Jan-97,ODI # 1162
+0,1,FALSE,FALSE,Pakistan,Sydney,18-Jan-97,ODI # 1165
+19,1,FALSE,FALSE,Pakistan,Melbourne,20-Jan-97,ODI # 1166
+9,1,FALSE,FALSE,Australia,Adelaide,25-Jan-97,Test # 1352
+78,2,FALSE,FALSE,Australia,Adelaide,25-Jan-97,Test # 1352
+48,1,FALSE,FALSE,Pakistan,Brisbane,3-Jan-97,ODI # 1157
+102,1,FALSE,FALSE,Australia,Brisbane,5-Jan-97,ODI # 1159
+132,1,FALSE,FALSE,Australia,Perth,1-Feb-97,Test # 1353
+NA,2,FALSE,TRUE,Australia,Perth,1-Feb-97,Test # 1353
+14,1,FALSE,FALSE,India,Port of Spain,14-Mar-97,Test # 1361
+19,2,FALSE,FALSE,India,Port of Spain,14-Mar-97,Test # 1361
+19,1,FALSE,FALSE,India,Bridgetown,27-Mar-97,Test # 1363
+45,2,FALSE,FALSE,India,Bridgetown,27-Mar-97,Test # 1363
+83,1,FALSE,FALSE,India,Kingston,6-Mar-97,Test # 1357
+78,2,FALSE,FALSE,India,Kingston,6-Mar-97,Test # 1357
+30,1,FALSE,FALSE,India,Georgetown,17-Apr-97,Test # 1365
+NA,2,NA,FALSE,India,Georgetown,17-Apr-97,Test # 1365
+25,1,TRUE,FALSE,India,Port of Spain,26-Apr-97,ODI # 1200
+0,1,FALSE,FALSE,India,Port of Spain,27-Apr-97,ODI # 1201
+33,1,FALSE,FALSE,India,Kingstown,30-Apr-97,ODI # 1202
+103,1,FALSE,FALSE,India,St John's,4-Apr-97,Test # 1364
+NA,2,NA,FALSE,India,St John's,4-Apr-97,Test # 1364
+NA,1,FALSE,TRUE,India,Bridgetown,3-May-97,ODI # 1203
+0,1,FALSE,FALSE,Sri Lanka,St John's,13-Jun-97,Test # 1369
+4,2,FALSE,FALSE,Sri Lanka,St John's,13-Jun-97,Test # 1369
+1,1,FALSE,FALSE,Sri Lanka,Kingstown,20-Jun-97,Test # 1371
+115,2,FALSE,FALSE,Sri Lanka,Kingstown,20-Jun-97,Test # 1371
+67,1,FALSE,FALSE,Sri Lanka,Port of Spain,6-Jun-97,ODI # 1215
+80,1,FALSE,FALSE,Sri Lanka,Lahore,1-Nov-97,ODI # 1247
+3,1,FALSE,FALSE,Pakistan,Peshawar,17-Nov-97,Test # 1384
+37,2,FALSE,FALSE,Pakistan,Peshawar,17-Nov-97,Test # 1384
+15,1,FALSE,FALSE,Pakistan,Rawalpindi,29-Nov-97,Test # 1389
+1,2,FALSE,FALSE,Pakistan,Rawalpindi,29-Nov-97,Test # 1389
+68,1,FALSE,FALSE,South Africa,Lahore,3-Nov-97,ODI # 1249
+7,1,FALSE,FALSE,Pakistan,Lahore,4-Nov-97,ODI # 1250
+88,1,FALSE,FALSE,Pakistan,Sharjah,12-Dec-97,ODI # 1260
+0,1,FALSE,FALSE,England,Sharjah,13-Dec-97,ODI # 1261
+23,1,FALSE,FALSE,India,Sharjah,16-Dec-97,ODI # 1264
+2,1,FALSE,FALSE,England,Sharjah,19-Dec-97,ODI # 1266
+36,1,FALSE,FALSE,Pakistan,Karachi,6-Dec-97,Test # 1391
+37,2,FALSE,FALSE,Pakistan,Karachi,6-Dec-97,Test # 1391
+NA,1,FALSE,TRUE,England,Kingston,29-Jan-98,Test # 1396
+NA,2,NA,FALSE,England,Kingston,29-Jan-98,Test # 1396
+42,1,FALSE,FALSE,England,Port of Spain,13-Feb-98,Test # 1399
+47,2,FALSE,FALSE,England,Port of Spain,13-Feb-98,Test # 1399
+93,1,FALSE,FALSE,England,Georgetown,27-Feb-98,Test # 1404
+30,2,FALSE,FALSE,England,Georgetown,27-Feb-98,Test # 1404
+55,1,FALSE,FALSE,England,Port of Spain,5-Feb-98,Test # 1398
+17,2,FALSE,FALSE,England,Port of Spain,5-Feb-98,Test # 1398
+31,1,FALSE,FALSE,England,Bridgetown,12-Mar-98,Test # 1407
+13,2,TRUE,FALSE,England,Bridgetown,12-Mar-98,Test # 1407
+89,1,FALSE,FALSE,England,St John's,20-Mar-98,Test # 1411
+NA,2,NA,FALSE,England,St John's,20-Mar-98,Test # 1411
+110,1,FALSE,FALSE,England,Bridgetown,29-Mar-98,ODI # 1299
+24,1,FALSE,FALSE,England,Bridgetown,1-Apr-98,ODI # 1301
+21,1,FALSE,FALSE,England,Kingstown,4-Apr-98,ODI # 1304
+51,1,FALSE,FALSE,England,Kingstown,5-Apr-98,ODI # 1307
+93,1,FALSE,FALSE,England,Port of Spain,8-Apr-98,ODI # 1310
+16,1,FALSE,FALSE,Pakistan,Dhaka,29-Oct-98,ODI # 1361
+60,1,TRUE,FALSE,India,Dhaka,31-Oct-98,ODI # 1363
+11,1,FALSE,FALSE,South Africa,Dhaka,1-Nov-98,ODI # 1364
+11,1,FALSE,FALSE,South Africa,Johannesburg,26-Nov-98,Test # 1429
+7,2,FALSE,FALSE,South Africa,Johannesburg,26-Nov-98,Test # 1429
+4,1,FALSE,FALSE,South Africa,Port Elizabeth,10-Dec-98,Test # 1433
+39,2,FALSE,FALSE,South Africa,Port Elizabeth,10-Dec-98,Test # 1433
+51,1,FALSE,FALSE,South Africa,Durban,26-Dec-98,Test # 1437
+79,2,FALSE,FALSE,South Africa,Durban,26-Dec-98,Test # 1437
+68,1,FALSE,FALSE,South Africa,Centurion,15-Jan-99,Test # 1441
+14,2,FALSE,FALSE,South Africa,Centurion,15-Jan-99,Test # 1441
+4,1,FALSE,FALSE,South Africa,Cape Town,2-Jan-99,Test # 1440
+33,2,FALSE,FALSE,South Africa,Cape Town,2-Jan-99,Test # 1440
+0,1,FALSE,FALSE,South Africa,Johannesburg,22-Jan-99,ODI # 1390
+3,1,FALSE,FALSE,South Africa,East London,24-Jan-99,ODI # 1393
+32,1,FALSE,FALSE,South Africa,Durban,27-Jan-99,ODI # 1395
+9,1,FALSE,FALSE,South Africa,Centurion,7-Feb-99,ODI # 1404
+213,1,FALSE,FALSE,Australia,Kingston,13-Mar-99,Test # 1451
+NA,2,FALSE,TRUE,Australia,Kingston,13-Mar-99,Test # 1451
+8,1,FALSE,FALSE,Australia,Bridgetown,26-Mar-99,Test # 1453
+153,2,TRUE,FALSE,Australia,Bridgetown,26-Mar-99,Test # 1453
+62,1,FALSE,FALSE,Australia,Port of Spain,5-Mar-99,Test # 1448
+3,2,FALSE,FALSE,Australia,Port of Spain,5-Mar-99,Test # 1448
+16,1,FALSE,FALSE,Australia,Kingstown,11-Apr-99,ODI # 1433
+9,1,FALSE,FALSE,Australia,St George's,14-Apr-99,ODI # 1436
+18,1,TRUE,FALSE,Australia,Port of Spain,17-Apr-99,ODI # 1438
+6,1,FALSE,FALSE,Australia,Port of Spain,18-Apr-99,ODI # 1439
+100,1,FALSE,FALSE,Australia,St John's,3-Apr-99,Test # 1454
+7,2,FALSE,FALSE,Australia,St John's,3-Apr-99,Test # 1454
+11,1,FALSE,FALSE,Pakistan,Bristol,16-May-99,ODI # 1447
+25,1,FALSE,FALSE,Bangladesh,Dublin,21-May-99,ODI # 1454
+36,1,FALSE,FALSE,New Zealand,Southampton,24-May-99,ODI # 1460
+25,1,TRUE,FALSE,Scotland,Leicester,27-May-99,ODI # 1465
+9,1,FALSE,FALSE,Australia,Manchester,30-May-99,ODI # 1470
+2,1,FALSE,FALSE,India,Toronto,11-Sep-99,ODI # 1497
+34,1,FALSE,FALSE,India,Toronto,12-Sep-99,ODI # 1498
+26,1,FALSE,FALSE,India,Toronto,14-Sep-99,ODI # 1499
+20,1,FALSE,FALSE,Pakistan,Toronto,16-Sep-99,ODI # 1500
+26,1,FALSE,FALSE,Pakistan,Toronto,18-Sep-99,ODI # 1501
+12,1,FALSE,FALSE,Pakistan,Toronto,19-Sep-99,ODI # 1502
+48,1,FALSE,FALSE,Zimbabwe,Singapore,2-Sep-99,ODI # 1492
+60,1,FALSE,FALSE,India,Singapore,5-Sep-99,ODI # 1494
+NA,1,FALSE,TRUE,India,Singapore,7-Sep-99,ODI # 1495
+18,1,FALSE,FALSE,India,Singapore,8-Sep-99,ODI # 1496
+0,1,FALSE,FALSE,Sri Lanka,Sharjah,13-Oct-99,ODI # 1512
+8,1,FALSE,FALSE,Pakistan,Sharjah,14-Oct-99,ODI # 1513
+29,1,FALSE,FALSE,Sri Lanka,Sharjah,17-Oct-99,ODI # 1515
+30,1,FALSE,FALSE,Pakistan,Sharjah,19-Oct-99,ODI # 1517
+2,1,FALSE,FALSE,Bangladesh,Dhaka,8-Oct-99,ODI # 1510
+117,1,FALSE,FALSE,Bangladesh,Dhaka,9-Oct-99,ODI # 1511
+24,1,FALSE,FALSE,New Zealand,Hamilton,16-Dec-99,Test # 1477
+1,2,FALSE,FALSE,New Zealand,Hamilton,16-Dec-99,Test # 1477
+67,1,FALSE,FALSE,New Zealand,Wellington,26-Dec-99,Test # 1478
+75,2,FALSE,FALSE,New Zealand,Wellington,26-Dec-99,Test # 1478
+37,1,FALSE,FALSE,New Zealand,Christchurch,11-Jan-00,ODI # 1538
+76,1,FALSE,FALSE,New Zealand,Auckland,2-Jan-00,ODI # 1532
+2,1,FALSE,FALSE,New Zealand,Taupo,4-Jan-00,ODI # 1533
+30,1,FALSE,FALSE,New Zealand,Napier,6-Jan-00,ODI # 1534
+5,1,FALSE,FALSE,New Zealand,Wellington,8-Jan-00,ODI # 1535
+50,1,FALSE,FALSE,England,Birmingham,15-Jun-00,Test # 1500
+NA,2,NA,FALSE,England,Birmingham,15-Jun-00,Test # 1500
+6,1,FALSE,FALSE,England,Lord's,29-Jun-00,Test # 1503
+5,2,FALSE,FALSE,England,Lord's,29-Jun-00,Test # 1503
+3,1,FALSE,FALSE,Zimbabwe,Canterbury,11-Jul-00,ODI # 1611
+54,1,FALSE,FALSE,England,Chester-le-Street,15-Jul-00,ODI # 1615
+87,1,FALSE,FALSE,Zimbabwe,Chester-le-Street,16-Jul-00,ODI # 1616
+60,1,FALSE,FALSE,Zimbabwe,Bristol,6-Jul-00,ODI # 1605
+NA,1,FALSE,TRUE,England,Lord's,9-Jul-00,ODI # 1609
+4,1,FALSE,FALSE,England,Leeds,17-Aug-00,Test # 1508
+2,2,FALSE,FALSE,England,Leeds,17-Aug-00,Test # 1508
+13,1,FALSE,FALSE,England,Manchester,3-Aug-00,Test # 1506
+112,2,FALSE,FALSE,England,Manchester,3-Aug-00,Test # 1506
+0,1,FALSE,FALSE,England,The Oval,31-Aug-00,Test # 1509
+47,2,FALSE,FALSE,England,The Oval,31-Aug-00,Test # 1509
+5,1,FALSE,FALSE,Sri Lanka,Nairobi (Gym),4-Oct-00,ODI # 1631
+0,1,FALSE,FALSE,Australia,Brisbane,23-Nov-00,Test # 1516
+4,2,FALSE,FALSE,Australia,Brisbane,23-Nov-00,Test # 1516
+0,1,FALSE,FALSE,Australia,Perth,1-Dec-00,Test # 1520
+17,2,FALSE,FALSE,Australia,Perth,1-Dec-00,Test # 1520
+182,1,FALSE,FALSE,Australia,Adelaide,15-Dec-00,Test # 1523
+39,2,FALSE,FALSE,Australia,Adelaide,15-Dec-00,Test # 1523
+16,1,FALSE,FALSE,Australia,Melbourne,26-Dec-00,Test # 1525
+0,2,FALSE,FALSE,Australia,Melbourne,26-Dec-00,Test # 1525
+28,1,FALSE,FALSE,Australia,Melbourne,11-Jan-01,ODI # 1667
+21,1,FALSE,FALSE,Zimbabwe,Brisbane,13-Jan-01,ODI # 1669
+19,1,FALSE,FALSE,Australia,Brisbane,14-Jan-01,ODI # 1670
+116,1,TRUE,FALSE,Australia,Sydney,17-Jan-01,ODI # 1672
+35,1,FALSE,FALSE,Australia,Sydney,2-Jan-01,Test # 1527
+28,2,FALSE,FALSE,Australia,Sydney,2-Jan-01,Test # 1527
+0,1,FALSE,FALSE,Zimbabwe,Sydney,23-Jan-01,ODI # 1675
+70,1,FALSE,FALSE,Zimbabwe,Adelaide,25-Jan-01,ODI # 1676
+0,1,FALSE,FALSE,Australia,Adelaide,26-Jan-01,ODI # 1677
+83,1,TRUE,FALSE,Zimbabwe,Perth,2-Feb-01,ODI # 1681
+35,1,FALSE,FALSE,Australia,Sydney,7-Feb-01,ODI # 1685
+0,1,FALSE,FALSE,Australia,Melbourne,9-Feb-01,ODI # 1687
+12,1,FALSE,FALSE,South Africa,Port of Spain,17-Mar-01,Test # 1538
+0,2,FALSE,FALSE,South Africa,Port of Spain,17-Mar-01,Test # 1538
+83,1,FALSE,FALSE,South Africa,Bridgetown,29-Mar-01,Test # 1541
+8,2,FALSE,FALSE,South Africa,Bridgetown,29-Mar-01,Test # 1541
+47,1,FALSE,FALSE,South Africa,Georgetown,9-Mar-01,Test # 1534
+45,2,FALSE,FALSE,South Africa,Georgetown,9-Mar-01,Test # 1534
+81,1,FALSE,FALSE,South Africa,Kingston,19-Apr-01,Test # 1544
+14,2,FALSE,FALSE,South Africa,Kingston,19-Apr-01,Test # 1544
+54,1,FALSE,FALSE,South Africa,Kingston,28-Apr-01,ODI # 1712
+19,1,FALSE,FALSE,South Africa,St John's,6-Apr-01,Test # 1542
+91,2,FALSE,FALSE,South Africa,St John's,6-Apr-01,Test # 1542
+41,1,FALSE,FALSE,South Africa,Port of Spain,12-May-01,ODI # 1717
+18,1,FALSE,FALSE,South Africa,Kingstown,16-May-01,ODI # 1718
+13,1,FALSE,FALSE,South Africa,St John's,2-May-01,ODI # 1713
+31,1,FALSE,FALSE,South Africa,St George's,5-May-01,ODI # 1714
+25,1,FALSE,FALSE,South Africa,St George's,6-May-01,ODI # 1715
+92,1,FALSE,FALSE,South Africa,Bridgetown,9-May-01,ODI # 1716
+178,1,FALSE,FALSE,Sri Lanka,Galle,13-Nov-01,Test # 1567
+40,2,FALSE,FALSE,Sri Lanka,Galle,13-Nov-01,Test # 1567
+74,1,FALSE,FALSE,Sri Lanka,Kandy,21-Nov-01,Test # 1570
+45,2,FALSE,FALSE,Sri Lanka,Kandy,21-Nov-01,Test # 1570
+221,1,FALSE,FALSE,Sri Lanka,Colombo (SSC),29-Nov-01,Test # 1572
+130,2,FALSE,FALSE,Sri Lanka,Colombo (SSC),29-Nov-01,Test # 1572
+60,1,FALSE,FALSE,Sri Lanka,Colombo (RPS),11-Dec-01,ODI # 1778
+24,1,TRUE,FALSE,Sri Lanka,Kandy,15-Dec-01,ODI # 1780
+2,1,FALSE,FALSE,Zimbabwe,Colombo (SSC),9-Dec-01,ODI # 1777
+0,1,FALSE,FALSE,India,Georgetown,11-Apr-02,Test # 1598
+NA,2,NA,FALSE,India,Georgetown,11-Apr-02,Test # 1598
+52,1,FALSE,FALSE,India,Port of Spain,19-Apr-02,Test # 1599
+47,2,FALSE,FALSE,India,Port of Spain,19-Apr-02,Test # 1599
+4,1,FALSE,FALSE,India,St John's,10-May-02,Test # 1602
+NA,2,NA,FALSE,India,St John's,10-May-02,Test # 1602
+9,1,FALSE,FALSE,India,Kingston,18-May-02,Test # 1604
+35,2,FALSE,FALSE,India,Kingston,18-May-02,Test # 1604
+55,1,FALSE,FALSE,India,Bridgetown,2-May-02,Test # 1601
+NA,2,FALSE,TRUE,India,Bridgetown,2-May-02,Test # 1601
+5,1,FALSE,FALSE,India,Bridgetown,29-May-02,ODI # 1836
+4,1,TRUE,FALSE,India,Port of Spain,1-Jun-02,ODI # 1837
+0,1,FALSE,FALSE,New Zealand,Port of Spain,12-Jun-02,ODI # 1843
+47,1,FALSE,FALSE,New Zealand,Kingstown,16-Jun-02,ODI # 1845
+36,1,FALSE,FALSE,India,Port of Spain,2-Jun-02,ODI # 1838
+28,1,FALSE,FALSE,New Zealand,Bridgetown,21-Jun-02,Test # 1607
+73,2,FALSE,FALSE,New Zealand,Bridgetown,21-Jun-02,Test # 1607
+48,1,FALSE,FALSE,New Zealand,St George's,28-Jun-02,Test # 1608
+NA,2,NA,FALSE,New Zealand,St George's,28-Jun-02,Test # 1608
+NA,1,FALSE,TRUE,New Zealand,Kingston,5-Jun-02,ODI # 1839
+9,1,TRUE,FALSE,New Zealand,Gros Islet,8-Jun-02,ODI # 1840
+59,1,TRUE,FALSE,New Zealand,Gros Islet,9-Jun-02,ODI # 1841
+21,1,FALSE,FALSE,South Africa,Colombo (SSC),13-Sep-02,ODI # 1875
+111,1,FALSE,FALSE,Kenya,Colombo (SSC),17-Sep-02,ODI # 1879
+2,1,FALSE,FALSE,New Zealand,Port Elizabeth,13-Feb-03,ODI # 1949
+46,1,FALSE,FALSE,Bangladesh,Benoni,18-Feb-03,ODI # 1956
+73,1,FALSE,FALSE,Canada,Centurion,23-Feb-03,ODI # 1963
+1,1,FALSE,FALSE,Sri Lanka,Cape Town,28-Feb-03,ODI # 1973
+116,1,FALSE,FALSE,South Africa,Cape Town,9-Feb-03,ODI # 1942
+10,1,FALSE,FALSE,Kenya,Kimberley,4-Mar-03,ODI # 1981
+26,1,FALSE,FALSE,Australia,Georgetown,10-Apr-03,Test # 1638
+110,2,FALSE,FALSE,Australia,Georgetown,10-Apr-03,Test # 1638
+91,1,FALSE,FALSE,Australia,Port of Spain,19-Apr-03,Test # 1639
+122,2,FALSE,FALSE,Australia,Port of Spain,19-Apr-03,Test # 1639
+14,1,FALSE,FALSE,Australia,Bridgetown,1-May-03,Test # 1643
+42,2,FALSE,FALSE,Australia,Bridgetown,1-May-03,Test # 1643
+23,1,FALSE,FALSE,Australia,Kingston,17-May-03,ODI # 2011
+5,1,FALSE,FALSE,Australia,Kingston,18-May-03,ODI # 2013
+4,1,FALSE,FALSE,Australia,Gros Islet,21-May-03,ODI # 2016
+40,1,FALSE,FALSE,Australia,Port of Spain,24-May-03,ODI # 2018
+80,1,FALSE,FALSE,Australia,Port of Spain,25-May-03,ODI # 2019
+15,1,FALSE,FALSE,Australia,St George's,30-May-03,ODI # 2020
+68,1,FALSE,FALSE,Australia,St John's,9-May-03,Test # 1645
+60,2,FALSE,FALSE,Australia,St John's,9-May-03,Test # 1645
+75,1,TRUE,FALSE,Australia,St George's,1-Jun-03,ODI # 2021
+14,1,FALSE,FALSE,Sri Lanka,Kingstown,11-Jun-03,ODI # 2024
+209,1,FALSE,FALSE,Sri Lanka,Gros Islet,20-Jun-03,Test # 1648
+NA,2,NA,FALSE,Sri Lanka,Gros Islet,20-Jun-03,Test # 1648
+10,1,FALSE,FALSE,Sri Lanka,Kingston,27-Jun-03,Test # 1649
+80,2,TRUE,FALSE,Sri Lanka,Kingston,27-Jun-03,Test # 1649
+64,1,TRUE,FALSE,Sri Lanka,Bridgetown,7-Jun-03,ODI # 2022
+116,1,FALSE,FALSE,Sri Lanka,Bridgetown,8-Jun-03,ODI # 2023
+191,1,FALSE,FALSE,Zimbabwe,Bulawayo,12-Nov-03,Test # 1669
+1,2,FALSE,FALSE,Zimbabwe,Bulawayo,12-Nov-03,Test # 1669
+113,1,FALSE,FALSE,Zimbabwe,Bulawayo,22-Nov-03,ODI # 2065
+2,1,FALSE,FALSE,Zimbabwe,Bulawayo,23-Nov-03,ODI # 2066
+34,1,FALSE,FALSE,Zimbabwe,Harare,26-Nov-03,ODI # 2067
+14,1,FALSE,FALSE,Zimbabwe,Harare,29-Nov-03,ODI # 2069
+41,1,FALSE,FALSE,Zimbabwe,Harare,30-Nov-03,ODI # 2070
+29,1,FALSE,FALSE,Zimbabwe,Harare,4-Nov-03,Test # 1668
+1,2,FALSE,FALSE,Zimbabwe,Harare,4-Nov-03,Test # 1668
+202,1,FALSE,FALSE,South Africa,Johannesburg,12-Dec-03,Test # 1674
+5,2,FALSE,FALSE,South Africa,Johannesburg,12-Dec-03,Test # 1674
+72,1,FALSE,FALSE,South Africa,Durban,26-Dec-03,Test # 1679
+11,2,FALSE,FALSE,South Africa,Durban,26-Dec-03,Test # 1679
+34,1,FALSE,FALSE,South Africa,Centurion,16-Jan-04,Test # 1682
+6,2,FALSE,FALSE,South Africa,Centurion,16-Jan-04,Test # 1682
+115,1,FALSE,FALSE,South Africa,Cape Town,2-Jan-04,Test # 1681
+86,2,FALSE,FALSE,South Africa,Cape Town,2-Jan-04,Test # 1681
+2,1,FALSE,FALSE,South Africa,Cape Town,25-Jan-04,ODI # 2088
+9,1,FALSE,FALSE,South Africa,Port Elizabeth,28-Jan-04,ODI # 2090
+15,1,FALSE,FALSE,South Africa,Durban,30-Jan-04,ODI # 2092
+59,1,TRUE,FALSE,South Africa,Centurion,1-Feb-04,ODI # 2094
+11,1,FALSE,FALSE,South Africa,Johannesburg,4-Feb-04,ODI # 2096
+23,1,FALSE,FALSE,England,Kingston,11-Mar-04,Test # 1687
+0,2,FALSE,FALSE,England,Kingston,11-Mar-04,Test # 1687
+0,1,FALSE,FALSE,England,Port of Spain,19-Mar-04,Test # 1690
+8,2,FALSE,FALSE,England,Port of Spain,19-Mar-04,Test # 1690
+36,1,FALSE,FALSE,England,Bridgetown,1-Apr-04,Test # 1694
+33,2,FALSE,FALSE,England,Bridgetown,1-Apr-04,Test # 1694
+400,1,TRUE,FALSE,England,St John's,10-Apr-04,Test # 1696
+NA,2,NA,FALSE,England,St John's,10-Apr-04,Test # 1696
+NA,1,FALSE,TRUE,England,Port of Spain,24-Apr-04,ODI # 2121
+37,1,FALSE,FALSE,England,Gros Islet,1-May-04,ODI # 2125
+57,1,FALSE,FALSE,England,Gros Islet,2-May-04,ODI # 2126
+53,1,FALSE,FALSE,Bangladesh,Gros Islet,28-May-04,Test # 1701
+NA,2,FALSE,TRUE,Bangladesh,Gros Islet,28-May-04,Test # 1701
+8,1,FALSE,FALSE,England,Bridgetown,5-May-04,ODI # 2127
+36,1,FALSE,FALSE,New Zealand,Birmingham,26-Jun-04,ODI # 2134
+32,1,TRUE,FALSE,England,Nottingham,27-Jun-04,ODI # 2135
+120,1,FALSE,FALSE,Bangladesh,Kingston,4-Jun-04,Test # 1703
+NA,2,NA,FALSE,Bangladesh,Kingston,4-Jun-04,Test # 1703
+6,1,FALSE,FALSE,England,Leeds,1-Jul-04,ODI # 2137
+30,1,FALSE,FALSE,New Zealand,Lord's,10-Jul-04,ODI # 2142
+11,1,FALSE,FALSE,England,Lord's,22-Jul-04,Test # 1707
+44,2,FALSE,FALSE,England,Lord's,22-Jul-04,Test # 1707
+95,1,FALSE,FALSE,England,Birmingham,29-Jul-04,Test # 1708
+13,2,FALSE,FALSE,England,Birmingham,29-Jul-04,Test # 1708
+58,1,FALSE,FALSE,New Zealand,Cardiff,3-Jul-04,ODI # 2138
+10,1,FALSE,FALSE,England,Lord's,6-Jul-04,ODI # 2140
+NA,1,FALSE,TRUE,New Zealand,Southampton,8-Jul-04,ODI # 2141
+0,1,FALSE,FALSE,England,Manchester,12-Aug-04,Test # 1711
+7,2,FALSE,FALSE,England,Manchester,12-Aug-04,Test # 1711
+79,1,FALSE,FALSE,England,The Oval,19-Aug-04,Test # 1712
+15,2,FALSE,FALSE,England,The Oval,19-Aug-04,Test # 1712
+20,1,FALSE,FALSE,Bangladesh,Southampton,15-Sep-04,ODI # 2175
+49,1,FALSE,FALSE,South Africa,The Oval,18-Sep-04,ODI # 2178
+31,1,TRUE,FALSE,Pakistan,Southampton,22-Sep-04,ODI # 2181
+14,1,FALSE,FALSE,England,The Oval,25-Sep-04,ODI # 2182
+52,1,FALSE,FALSE,Asia XI,Melbourne,10-Jan-05,ODI # 2203
+58,1,FALSE,FALSE,Australia,Melbourne,14-Jan-05,ODI # 2204
+39,1,FALSE,FALSE,Pakistan,Brisbane,19-Jan-05,ODI # 2206
+6,1,FALSE,FALSE,Australia,Brisbane,21-Jan-05,ODI # 2208
+29,1,FALSE,FALSE,Australia,Adelaide,26-Jan-05,ODI # 2212
+156,1,FALSE,FALSE,Pakistan,Adelaide,28-Jan-05,ODI # 2213
+19,1,FALSE,FALSE,Pakistan,Perth,1-Feb-05,ODI # 2218
+176,1,FALSE,FALSE,South Africa,Bridgetown,21-Apr-05,Test # 1749
+13,2,FALSE,FALSE,South Africa,Bridgetown,21-Apr-05,Test # 1749
+4,1,FALSE,FALSE,South Africa,St John's,29-Apr-05,Test # 1750
+NA,2,NA,FALSE,South Africa,St John's,29-Apr-05,Test # 1750
+196,1,FALSE,FALSE,South Africa,Port of Spain,8-Apr-05,Test # 1747
+4,2,FALSE,FALSE,South Africa,Port of Spain,8-Apr-05,Test # 1747
+32,1,FALSE,FALSE,South Africa,Bridgetown,11-May-05,ODI # 2243
+22,1,FALSE,FALSE,South Africa,Port of Spain,14-May-05,ODI # 2244
+12,1,FALSE,FALSE,South Africa,Port of Spain,15-May-05,ODI # 2245
+130,1,FALSE,FALSE,Pakistan,Bridgetown,26-May-05,Test # 1752
+48,2,FALSE,FALSE,Pakistan,Bridgetown,26-May-05,Test # 1752
+8,1,FALSE,FALSE,South Africa,Kingston,7-May-05,ODI # 2241
+0,1,FALSE,FALSE,South Africa,Kingston,8-May-05,ODI # 2242
+153,1,FALSE,FALSE,Pakistan,Kingston,3-Jun-05,Test # 1754
+0,2,FALSE,FALSE,Pakistan,Kingston,3-Jun-05,Test # 1754
+5,1,FALSE,FALSE,Australia,Sydney,14-Oct-05,Test # 1768
+36,2,FALSE,FALSE,Australia,Sydney,14-Oct-05,Test # 1768
+0,1,FALSE,FALSE,Australia,Melbourne (Docklands),5-Oct-05,ODI # 2282
+5,1,FALSE,FALSE,Australia,Melbourne (Docklands),7-Oct-05,ODI # 2283
+0,1,FALSE,FALSE,Australia,Melbourne (Docklands),9-Oct-05,ODI # 2284
+13,1,FALSE,FALSE,Australia,Hobart,17-Nov-05,Test # 1771
+45,2,FALSE,FALSE,Australia,Hobart,17-Nov-05,Test # 1771
+226,1,FALSE,FALSE,Australia,Adelaide,25-Nov-05,Test # 1773
+17,2,FALSE,FALSE,Australia,Adelaide,25-Nov-05,Test # 1773
+30,1,FALSE,FALSE,Australia,Brisbane,3-Nov-05,Test # 1769
+14,2,FALSE,FALSE,Australia,Brisbane,3-Nov-05,Test # 1769
+1,1,FALSE,FALSE,New Zealand,Wellington,17-Mar-06,Test # 1790
+1,2,FALSE,FALSE,New Zealand,Wellington,17-Mar-06,Test # 1790
+83,1,FALSE,FALSE,New Zealand,Napier,25-Mar-06,Test # 1793
+NA,2,NA,FALSE,New Zealand,Napier,25-Mar-06,Test # 1793
+5,1,FALSE,FALSE,New Zealand,Auckland,9-Mar-06,Test # 1787
+0,2,FALSE,FALSE,New Zealand,Auckland,9-Mar-06,Test # 1787
+40,1,TRUE,FALSE,Zimbabwe,St John's,29-Apr-06,ODI # 2368
+5,1,FALSE,FALSE,Zimbabwe,St John's,30-Apr-06,ODI # 2369
+NA,1,FALSE,TRUE,Zimbabwe,Gros Islet,10-May-06,ODI # 2371
+2,1,FALSE,FALSE,Zimbabwe,Port of Spain,13-May-06,ODI # 2372
+40,1,FALSE,FALSE,Zimbabwe,Port of Spain,14-May-06,ODI # 2373
+35,1,FALSE,FALSE,India,Kingston,18-May-06,ODI # 2377
+14,1,FALSE,FALSE,India,Kingston,20-May-06,ODI # 2379
+5,1,FALSE,FALSE,India,Basseterre,23-May-06,ODI # 2380
+69,1,FALSE,FALSE,India,Port of Spain,26-May-06,ODI # 2381
+36,1,FALSE,FALSE,India,Port of Spain,28-May-06,ODI # 2382
+56,1,FALSE,FALSE,Zimbabwe,Georgetown,7-May-06,ODI # 2370
+7,1,FALSE,FALSE,India,Gros Islet,10-Jun-06,Test # 1806
+120,2,FALSE,FALSE,India,Gros Islet,10-Jun-06,Test # 1806
+18,1,FALSE,FALSE,India,St John's,2-Jun-06,Test # 1805
+0,2,FALSE,FALSE,India,St John's,2-Jun-06,Test # 1805
+10,1,FALSE,FALSE,India,Basseterre,22-Jun-06,Test # 1807
+19,2,FALSE,FALSE,India,Basseterre,22-Jun-06,Test # 1807
+26,1,FALSE,FALSE,India,Kingston,30-Jun-06,Test # 1808
+11,2,FALSE,FALSE,India,Kingston,30-Jun-06,Test # 1808
+1,1,FALSE,FALSE,Australia,Kuala Lumpur,12-Sep-06,ODI # 2413
+27,1,TRUE,FALSE,India,Kuala Lumpur,14-Sep-06,ODI # 2414
+87,1,FALSE,FALSE,Australia,Kuala Lumpur,18-Sep-06,ODI # 2417
+40,1,TRUE,FALSE,India,Kuala Lumpur,20-Sep-06,ODI # 2419
+5,1,FALSE,FALSE,Australia,Kuala Lumpur,24-Sep-06,ODI # 2422
+NA,1,FALSE,TRUE,Bangladesh,Jaipur,11-Oct-06,ODI # 2426
+13,1,FALSE,FALSE,Sri Lanka,Mumbai (BS),14-Oct-06,ODI # 2428
+71,1,FALSE,FALSE,Australia,Mumbai (BS),18-Oct-06,ODI # 2432
+5,1,FALSE,FALSE,India,Ahmedabad,26-Oct-06,ODI # 2437
+3,1,FALSE,FALSE,England,Ahmedabad,28-Oct-06,ODI # 2439
+24,1,TRUE,FALSE,Zimbabwe,Ahmedabad,8-Oct-06,ODI # 2424
+61,1,FALSE,FALSE,Pakistan,Lahore,11-Nov-06,Test # 1815
+122,2,FALSE,FALSE,Pakistan,Lahore,11-Nov-06,Test # 1815
+216,1,FALSE,FALSE,Pakistan,Multan,19-Nov-06,Test # 1816
+NA,2,NA,FALSE,Pakistan,Multan,19-Nov-06,Test # 1816
+9,1,FALSE,FALSE,South Africa,Jaipur,2-Nov-06,ODI # 2442
+0,1,FALSE,FALSE,Pakistan,Karachi,27-Nov-06,Test # 1818
+49,2,FALSE,FALSE,Pakistan,Karachi,27-Nov-06,Test # 1818
+2,1,FALSE,FALSE,Australia,Mumbai (BS),5-Nov-06,ODI # 2443
+0,1,FALSE,FALSE,Pakistan,Lahore,10-Dec-06,ODI # 2463
+13,1,TRUE,FALSE,Pakistan,Multan,13-Dec-06,ODI # 2464
+44,1,FALSE,FALSE,Pakistan,Karachi,16-Dec-06,ODI # 2466
+14,1,FALSE,FALSE,Pakistan,Faisalabad,7-Dec-06,ODI # 2460
+31,1,FALSE,FALSE,India,Nagpur,21-Jan-07,ODI # 2480
+83,1,FALSE,FALSE,India,Chennai,27-Jan-07,ODI # 2487
+3,1,FALSE,FALSE,India,Vadodara,31-Jan-07,ODI # 2493
+37,1,FALSE,FALSE,Pakistan,Kingston,13-Mar-07,ODI # 2531
+44,1,TRUE,FALSE,Zimbabwe,Kingston,19-Mar-07,ODI # 2543
+NA,1,FALSE,TRUE,Ireland,Kingston,23-Mar-07,ODI # 2551
+77,1,FALSE,FALSE,Australia,North Sound,27-Mar-07,ODI # 2555
+37,1,FALSE,FALSE,New Zealand,North Sound,29-Mar-07,ODI # 2557
+2,1,FALSE,FALSE,Sri Lanka,Providence,1-Apr-07,ODI # 2560
+21,1,FALSE,FALSE,South Africa,St George's,10-Apr-07,ODI # 2567
+33,1,FALSE,FALSE,Bangladesh,Bridgetown,19-Apr-07,ODI # 2576
+18,1,FALSE,FALSE,England,Bridgetown,21-Apr-07,ODI # 2578

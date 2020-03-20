@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>dplyr 1: key verbs</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="thisisdaryn at gmail dot com" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# dplyr 1: key verbs
+## Daryn Ramsden
+### thisisdaryn at gmail dot com
+### last updated: 2020-03-20
+
+---
+
+
+
+
+
+
+
+
+
+## dplyr: a package for data manipulation
+
+The data you get is almost in the form you want
+
+--
+
+&lt;tt&gt;dplyr&lt;/tt&gt; is an R package that encapsulates many common data manipulation tasks
+
+--
+
+Sometimes you want to: 
+--
+
+  * keep only some of the rows
+
+--
+
+  * keep only some of the columns
+
+--
+
+  * adds new columns
+
+--
+
+  * sort data
+  
+--
+
+  * provide summary statistics
+
+--
+
+&lt;tt&gt;dplyr&lt;/tt&gt; has a function for each of these
+
+  
+---
+## 5 Key tasks/verbs/functions
+
+  * &lt;tt&gt;filter&lt;/tt&gt;: keep only some of the rows 
+
+
+  * &lt;tt&gt;select&lt;/tt&gt;: keep only some of the columns 
+
+  * &lt;tt&gt;mutate&lt;/tt&gt; adds new columns
+
+
+
+  * &lt;tt&gt;arrange&lt;/tt&gt;: sort data
+  
+
+
+  * &lt;tt&gt;summarise&lt;/tt&gt; (and &lt;tt&gt;group_by&lt;/tt&gt;): provide summary statistics 
+  
+---
+## First, let's get some data
+
+
+```r
+library(readr)
+
+cars2018 &lt;- read_csv("data/cars2018.csv")
+```
+
+---
+## First, let's get some data
+
+
+```r
+library(readr)
+
+cars2018 &lt;- read_csv("data/cars2018.csv")
+cars2018
+```
+
+
+---
+## First, let's get some data
+
+
+```r
+library(readr)
+
+cars2018 &lt;- read_csv("data/cars2018.csv")
+cars2018
+```
+
+```
+## # A tibble: 1,144 x 15
+##    Model    ID Displacement Cylinders Gears Transmission   MPG Aspiration LTC  
+##    &lt;chr&gt; &lt;dbl&gt;        &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;
+##  1 Acur…    57          3.5         6     9 Manual          21 Turbochar… Y    
+##  2 ALFA…   410          1.8         4     6 Manual          28 Turbochar… Y    
+##  3 Audi…    65          5.2        10     7 Manual          17 Naturally… Y    
+##  4 Audi…    71          5.2        10     7 Manual          18 Naturally… Y    
+##  5 Audi…    66          5.2        10     7 Manual          17 Naturally… Y    
+##  6 Audi…    72          5.2        10     7 Manual          18 Naturally… Y    
+##  7 Audi…    46          2           4     6 Manual          26 Turbochar… Y    
+##  8 BMW …   488          3           6     7 Manual          20 Turbochar… N    
+##  9 Buga…    38          8          16     7 Manual          11 Turbochar… Y    
+## 10 Chev…   278          6.2         8     8 Automatic       18 Naturally… Y    
+## # … with 1,134 more rows, and 6 more variables: Drive &lt;chr&gt;, MaxEthanol &lt;dbl&gt;,
+## #   Fuel &lt;chr&gt;, Intake &lt;dbl&gt;, Exhaust &lt;dbl&gt;, FuelInjection &lt;chr&gt;
+```
+
+
+
+---
+### What is this data?
+
+
+--
+Information from the US Department of Energy about 2018 model vehicles
+--
+
+#### What do (some) of the fields represent?
+
+  * Model: Make and model of the vehicle 
+
+--
+
+  * Displacement: Measure of the engine's size
+--
+
+  * Cylinders: Number of cylinders
+
+--
+
+  * Gears: Number of Gears
+  
+--
+  
+  * Transmission: &lt;i&gt;Automatic&lt;/i&gt;, &lt;i&gt;Manual&lt;/i&gt;, or &lt;i&gt;CVT&lt;/i&gt; 
+  
+--
+
+  * MPG: Miles per gallon (highway driving)
+
+  
+
+
+---
+## How do we use dplyr?
+
+--
+
+
+```r
+library(dplyr)
+```
+--
+
+
+### Or ...
+
+--
+you can load the entire &lt;tt&gt;tidyverse&lt;/tt&gt; 
+
+
+```r
+library(tidyverse)
+```
+
+
+
+---
+### If you've never installed it before 
+
+--
+
+You will need to install the package first 
+
+
+```r
+install.packages("dplyr")
+```
+
+--
+or 
+
+
+```r
+install.packages("tidyverse")
+```
+
+
+
+
+---
+### Key thing to remember
+
+--
+
+All of these functions have these in common:
+
+--
+
+  * the first input is a data frame 
+  
+--
+
+  * there are a variable number of following inputs specifying the manipulation you want to do
+
+
+---
+## filter
+
+#### a function for specifying which rows to keep
+
+
+Example 1: How do we get all cars with manual transmissions?
+--
+
+```r
+manual &lt;- filter(cars2018, Transmission == "Manual")
+```
+
+---
+## filter
+
+#### a function for specifying which rows to keep
+
+
+Example 1: How do we get all cars with manual transmissions?
+
+
+```r
+manual &lt;- filter(cars2018, Transmission == "Manual")
+manual
+```
+
+  
+---
+## filter
+
+#### a function for specifying which rows to keep
+
+
+Example 1: How do we get all employees that are salaried?
+
+
+```r
+manual &lt;- filter(cars2018, Transmission == "Manual")
+manual
+```
+
+```
+## # A tibble: 299 x 15
+##    Model    ID Displacement Cylinders Gears Transmission   MPG Aspiration LTC  
+##    &lt;chr&gt; &lt;dbl&gt;        &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;
+##  1 Acur…    57          3.5         6     9 Manual          21 Turbochar… Y    
+##  2 ALFA…   410          1.8         4     6 Manual          28 Turbochar… Y    
+##  3 Audi…    65          5.2        10     7 Manual          17 Naturally… Y    
+##  4 Audi…    71          5.2        10     7 Manual          18 Naturally… Y    
+##  5 Audi…    66          5.2        10     7 Manual          17 Naturally… Y    
+##  6 Audi…    72          5.2        10     7 Manual          18 Naturally… Y    
+##  7 Audi…    46          2           4     6 Manual          26 Turbochar… Y    
+##  8 BMW …   488          3           6     7 Manual          20 Turbochar… N    
+##  9 Buga…    38          8          16     7 Manual          11 Turbochar… Y    
+## 10 Chev…   285          6.2         8     7 Manual          18 Turbochar… N    
+## # … with 289 more rows, and 6 more variables: Drive &lt;chr&gt;, MaxEthanol &lt;dbl&gt;,
+## #   Fuel &lt;chr&gt;, Intake &lt;dbl&gt;, Exhaust &lt;dbl&gt;, FuelInjection &lt;chr&gt;
+```
+
+
+---
+## filter
+
+#### 
+
+
+Example 2: How do we get all cars with 4 or more cylinders?
+--
+
+```r
+cyl_4 &lt;- filter(cars2018, Cylinders &gt;= 4)
+head(cyl_4)
+```
+
+```
+## # A tibble: 6 x 15
+##   Model    ID Displacement Cylinders Gears Transmission   MPG Aspiration LTC  
+##   &lt;chr&gt; &lt;dbl&gt;        &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;
+## 1 Acur…    57          3.5         6     9 Manual          21 Turbochar… Y    
+## 2 ALFA…   410          1.8         4     6 Manual          28 Turbochar… Y    
+## 3 Audi…    65          5.2        10     7 Manual          17 Naturally… Y    
+## 4 Audi…    71          5.2        10     7 Manual          18 Naturally… Y    
+## 5 Audi…    66          5.2        10     7 Manual          17 Naturally… Y    
+## 6 Audi…    72          5.2        10     7 Manual          18 Naturally… Y    
+## # … with 6 more variables: Drive &lt;chr&gt;, MaxEthanol &lt;dbl&gt;, Fuel &lt;chr&gt;,
+## #   Intake &lt;dbl&gt;, Exhaust &lt;dbl&gt;, FuelInjection &lt;chr&gt;
+```
+
+
+---
+## filter
+
+#### 
+
+Example 3: How do we get all cars with manual transmissions and 4 or more cylinders?
+--
+
+```r
+manual_cyl4 &lt;- filter(cars2018, Transmission == "Manual", 
+                     Cylinders &gt;= 4)
+```
+
+---
+### Assessment
+
+How many automatic transmission cars have less than 6 gears?
+
+
+--
+
+
+```r
+auto_l6 &lt;- filter(cars2018, Transmission == "Automatic",
+                      Gears &lt; 6)
+dim(auto_l6)
+```
+
+```
+## [1] 13 15
+```
+
+
+
+
+
+---
+## select
+
+
+#### a function for specifying which columns to keep
+
+Example: How do we keep only the &lt;tt&gt;Model&lt;/tt&gt;, &lt;tt&gt;MPG&lt;/tt&gt;, &lt;tt&gt;Transmission&lt;/tt&gt; and &lt;tt&gt;Cylinders&lt;/tt&gt; columns?  
+
+
+```r
+cars_narrow &lt;- select(cars2018, Model, MPG, Transmission, Cylinders)
+```
+
+---
+## select
+
+
+#### a function for specifying which columns to keep
+
+Example: How do we keep only the &lt;tt&gt;Model&lt;/tt&gt;, &lt;tt&gt;MPG&lt;/tt&gt;, &lt;tt&gt;Transmission&lt;/tt&gt; and &lt;tt&gt;Cylinders&lt;/tt&gt; columns?  
+
+
+```r
+cars_narrow &lt;- select(cars2018, Model, MPG, Transmission, Cylinders)
+
+cars_narrow
+```
+
+
+---
+## select
+
+
+#### a function for specifying which columns to keep
+
+Example: How do we keep only the &lt;tt&gt;Model&lt;/tt&gt;, &lt;tt&gt;MPG&lt;/tt&gt;, &lt;tt&gt;Transmission&lt;/tt&gt; and &lt;tt&gt;Cylinders&lt;/tt&gt; columns?  
+
+
+```r
+cars_narrow &lt;- select(cars2018, Model, MPG, Transmission, Cylinders)
+
+cars_narrow
+```
+
+```
+## # A tibble: 1,144 x 4
+##    Model                          MPG Transmission Cylinders
+##    &lt;chr&gt;                        &lt;dbl&gt; &lt;chr&gt;            &lt;dbl&gt;
+##  1 Acura NSX                       21 Manual               6
+##  2 ALFA ROMEO 4C                   28 Manual               4
+##  3 Audi R8 AWD                     17 Manual              10
+##  4 Audi R8 RWD                     18 Manual              10
+##  5 Audi R8 Spyder AWD              17 Manual              10
+##  6 Audi R8 Spyder RWD              18 Manual              10
+##  7 Audi TT Roadster quattro        26 Manual               4
+##  8 BMW M4 DTM Champions Edition    20 Manual               6
+##  9 Bugatti Chiron                  11 Manual              16
+## 10 Chevrolet CORVETTE              18 Automatic            8
+## # … with 1,134 more rows
+```
+
+
+---
+## select
+
+#### Example: we can use the &lt;tt&gt;-&lt;/tt&gt; to specify columns we don't want to keep:
+
+--
+
+How do we keep all columns except the &lt;tt&gt;ID&lt;/tt&gt;, &lt;tt&gt;Intake&lt;/tt&gt;, and &lt;tt&gt;Exhaust&lt;/tt&gt;?
+
+
+```r
+cars_alt &lt;- select(cars2018, -ID, -Intake, -Exhaust)
+```
+
+
+---
+## select
+
+#### Example: we can use the &lt;tt&gt;-&lt;/tt&gt; to specify columns we don't want to keep:
+
+
+
+How do we keep all columns except the &lt;tt&gt;ID&lt;/tt&gt;, &lt;tt&gt;Intake&lt;/tt&gt;, and &lt;tt&gt;Exhaust&lt;/tt&gt;?
+
+
+```r
+cars_alt &lt;- select(cars2018, -ID, -Intake, -Exhaust)
+cars_alt
+```
+---
+## select
+
+#### Example: we can use the &lt;tt&gt;-&lt;/tt&gt; to specify columns we don't want to keep:
+
+
+
+How do we keep all columns except the &lt;tt&gt;ID&lt;/tt&gt;, &lt;tt&gt;Intake&lt;/tt&gt;, and &lt;tt&gt;Exhaust&lt;/tt&gt;
+
+
+```r
+cars_alt &lt;- select(cars2018, -ID, -Intake, -Exhaust)
+cars_alt
+```
+
+```
+## # A tibble: 1,144 x 12
+##    Model Displacement Cylinders Gears Transmission   MPG Aspiration LTC   Drive
+##    &lt;chr&gt;        &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;
+##  1 Acur…          3.5         6     9 Manual          21 Turbochar… Y     All …
+##  2 ALFA…          1.8         4     6 Manual          28 Turbochar… Y     2-Wh…
+##  3 Audi…          5.2        10     7 Manual          17 Naturally… Y     All …
+##  4 Audi…          5.2        10     7 Manual          18 Naturally… Y     2-Wh…
+##  5 Audi…          5.2        10     7 Manual          17 Naturally… Y     All …
+##  6 Audi…          5.2        10     7 Manual          18 Naturally… Y     2-Wh…
+##  7 Audi…          2           4     6 Manual          26 Turbochar… Y     All …
+##  8 BMW …          3           6     7 Manual          20 Turbochar… N     2-Wh…
+##  9 Buga…          8          16     7 Manual          11 Turbochar… Y     All …
+## 10 Chev…          6.2         8     8 Automatic       18 Naturally… Y     2-Wh…
+## # … with 1,134 more rows, and 3 more variables: MaxEthanol &lt;dbl&gt;, Fuel &lt;chr&gt;,
+## #   FuelInjection &lt;chr&gt;
+```
+
+
+
+---
+## arrange 
+
+### a function to sort your data
+
+Example: How do we sort the data so that the cars are sorted by MPG?
+
+
+```r
+cars_sorted &lt;- arrange(cars2018, MPG)
+```
+
+
+
+---
+## arrange
+
+Example: How do we sort the data so that the cars are sorted by MPG in descending order?
+
+
+```r
+cars_desc &lt;- arrange(cars2018, desc(MPG))
+```
+
+
+---
+## arrange
+
+You can also sort by more than one variable
+
+Example: How do we sort the cars by Transmission type (alphabetically) with each type sorted by MPG (descending)?
+
+
+
+```r
+cars_transmpg &lt;- arrange(cars2018, Transmission, desc(MPG))
+```
+
+
+
+--
+
+Question: How can you check that this works?
+
+--
+
+  * One way: Try the &lt;tt&gt;View&lt;/tt&gt; function with the data frame you created as input.
+
+
+
+---
+### Assessment
+
+Fill in the code below to do the following tasks:
+
+  * start with the original data set (all employees)
+  * restrict to CVT transmission vehicles
+  * remove the &lt;i&gt;FuelInjection&lt;/i&gt;, &lt;i&gt;Aspiration&lt;/i&gt; and &lt;i&gt;LTC&lt;/i&gt; columns
+  * order the data in descending order of MPG
+    * if cars have the same MPG order them by Model alphabetically 
+  
+  
+
+```r
+____ &lt;- filter(____, ____ == ____)
+____ &lt;- select(____, -____, -_____, -_______)
+____ &lt;- arrange(____, ____, ____)
+```
+
+
+
+
+---
+### Assessment solution
+
+
+
+
+
+
+```r
+df &lt;- filter(cars2018, Transmission == "CVT")
+df2 &lt;- select(df, -FuelInjection, -Aspiration, -LTC)
+df3 &lt;- arrange(df2, desc(MPG), Model)
+
+df3
+```
+
+```
+## # A tibble: 85 x 12
+##    Model    ID Displacement Cylinders Gears Transmission   MPG Drive MaxEthanol
+##    &lt;chr&gt; &lt;dbl&gt;        &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;chr&gt;      &lt;dbl&gt;
+##  1 TOYO…    75          1.8         4     1 CVT             56 2-Wh…         15
+##  2 TOYO…    14          2.5         4     6 CVT             52 2-Wh…         15
+##  3 TOYO…    74          1.8         4     1 CVT             52 2-Wh…         15
+##  4 Chev…   260          1.8         4     1 CVT             46 2-Wh…         10
+##  5 TOYO…    15          2.5         4     6 CVT             46 2-Wh…         15
+##  6 TOYO…    18          1.5         4     1 CVT             46 2-Wh…         15
+##  7 Ford…    43          2           4     1 CVT             42 2-Wh…         15
+##  8 Ford…    63          2           4     1 CVT             40 2-Wh…         15
+##  9 LEXU…    25          2.5         4     6 CVT             40 2-Wh…         15
+## 10 Linc…    44          2           4     1 CVT             40 2-Wh…         15
+## # … with 75 more rows, and 3 more variables: Fuel &lt;chr&gt;, Intake &lt;dbl&gt;,
+## #   Exhaust &lt;dbl&gt;
+```
+
+(You don't have to use the same data frame names.)
+
+
+---
+### Assessment solution: alternative
+
+
+  * You could also have overwritten the data frame at each step.
+    * your environment is less cluttered
+    * but seeing the intermediate data may help with troubleshooting/debugging your code
+
+
+```r
+df &lt;- filter(cars2018, Transmission == "CVT")
+df &lt;- select(df, -FuelInjection, -Aspiration, -LTC)
+df &lt;- arrange(df, desc(MPG), Model)
+
+df
+```
+
+```
+## # A tibble: 85 x 12
+##    Model    ID Displacement Cylinders Gears Transmission   MPG Drive MaxEthanol
+##    &lt;chr&gt; &lt;dbl&gt;        &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;chr&gt;      &lt;dbl&gt;
+##  1 TOYO…    75          1.8         4     1 CVT             56 2-Wh…         15
+##  2 TOYO…    14          2.5         4     6 CVT             52 2-Wh…         15
+##  3 TOYO…    74          1.8         4     1 CVT             52 2-Wh…         15
+##  4 Chev…   260          1.8         4     1 CVT             46 2-Wh…         10
+##  5 TOYO…    15          2.5         4     6 CVT             46 2-Wh…         15
+##  6 TOYO…    18          1.5         4     1 CVT             46 2-Wh…         15
+##  7 Ford…    43          2           4     1 CVT             42 2-Wh…         15
+##  8 Ford…    63          2           4     1 CVT             40 2-Wh…         15
+##  9 LEXU…    25          2.5         4     6 CVT             40 2-Wh…         15
+## 10 Linc…    44          2           4     1 CVT             40 2-Wh…         15
+## # … with 75 more rows, and 3 more variables: Fuel &lt;chr&gt;, Intake &lt;dbl&gt;,
+## #   Exhaust &lt;dbl&gt;
+```
+
+
+
+---
+## mutate
+
+#### a function to add new columns
+
+
+Example: Adding a column that indicates whether a car has a fuel efficiency 30 MPG or greater 
+
+
+```r
+cars_30 &lt;- mutate(cars2018, above30 = if_else(MPG &gt; 30, TRUE, FALSE))
+```
+
+---
+## mutate
+
+#### a function to add new columns
+
+
+Example: Adding a column that indicates whether a car has a fuel efficiency 30 MPG or greater 
+
+
+```r
+cars_30 &lt;- mutate(cars2018, above30 = if_else(MPG &gt; 30, TRUE, FALSE))
+
+cars30 
+```
+
+
+
+---
+## mutate
+
+#### a function to add new columns
+
+
+Example: Adding a column that indicates whether a car has a fuel efficiency 30 MPG or greater 
+
+
+```r
+cars_30 &lt;- mutate(cars2018, above30 = if_else(MPG &gt; 30, TRUE, FALSE))
+
+head(cars_30)
+```
+
+```
+## # A tibble: 6 x 16
+##   Model    ID Displacement Cylinders Gears Transmission   MPG Aspiration LTC  
+##   &lt;chr&gt; &lt;dbl&gt;        &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;
+## 1 Acur…    57          3.5         6     9 Manual          21 Turbochar… Y    
+## 2 ALFA…   410          1.8         4     6 Manual          28 Turbochar… Y    
+## 3 Audi…    65          5.2        10     7 Manual          17 Naturally… Y    
+## 4 Audi…    71          5.2        10     7 Manual          18 Naturally… Y    
+## 5 Audi…    66          5.2        10     7 Manual          17 Naturally… Y    
+## 6 Audi…    72          5.2        10     7 Manual          18 Naturally… Y    
+## # … with 7 more variables: Drive &lt;chr&gt;, MaxEthanol &lt;dbl&gt;, Fuel &lt;chr&gt;,
+## #   Intake &lt;dbl&gt;, Exhaust &lt;dbl&gt;, FuelInjection &lt;chr&gt;, above30 &lt;lgl&gt;
+```
+
+
+---
+## summarise
+
+#### a function for summary statistics
+
+
+Example: Provide the following summary statistics for the City of Chicago:
+
+  * the total number of cars
+  * the average MPG
+
+
+```r
+report &lt;- summarise(cars2018, NumCars = n(),
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+```
+
+---
+## summarise
+
+#### a function for summary statistics
+
+
+Example: Provide the following summary statistics for the City of Chicago:
+
+  * the total number of cars
+  * the average MPG
+
+
+```r
+report &lt;- summarise(cars2018, NumCars = n(),
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+
+report
+```
+---
+## summarise
+
+#### a function for summary statistics
+
+
+Example: Provide the following summary statistics for the City of Chicago:
+
+  * the total number of cars
+  * the average MPG
+
+
+```r
+report &lt;- summarise(cars2018, NumCars = n(),
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+
+report
+```
+
+```
+## # A tibble: 1 x 2
+##   NumCars AvgMPG
+##     &lt;int&gt;  &lt;dbl&gt;
+## 1    1144   23.2
+```
+---
+
+## summarise
+
+#### How can we find the following for Manual Transmission cars?
+
+  * the total number of cars
+  * the median MPG
+
+--
+
+
+```r
+manual_report &lt;- summarise(manual, NumCars = n(),
+                           MedMPG = median(MPG, na.rm = TRUE))
+```
+
+---
+
+## summarise
+
+#### How can we find the following for Manual Transmission cars?
+
+  * the total number of cars
+  * the median MPG
+
+
+
+
+```r
+manual_report &lt;- summarise(manual, NumCars = n(),
+                           MedMPG = median(MPG, na.rm = TRUE))
+manual_report
+```
+
+
+---
+
+## summarise
+
+#### How can we find the following for Manual Transmission cars?
+
+  * the total number of cars
+  * the median MPG
+
+
+
+
+```r
+manual_report &lt;- summarise(manual, NumCars = n(),
+                           MedMPG = median(MPG, na.rm = TRUE))
+manual_report
+```
+
+```
+## # A tibble: 1 x 2
+##   NumCars MedMPG
+##     &lt;int&gt;  &lt;dbl&gt;
+## 1     299     24
+```
+
+
+
+
+---
+
+
+## group_by
+
+#### A function to put the data into groups (before you summarise)
+
+
+What if we wanted summary statistics for Automatic, Manual and CVT?
+
+
+```r
+grouped_cars &lt;- group_by(cars2018, Transmission)
+grouped_cars
+```
+
+```
+## # A tibble: 1,144 x 15
+## # Groups:   Transmission [3]
+##    Model    ID Displacement Cylinders Gears Transmission   MPG Aspiration LTC  
+##    &lt;chr&gt; &lt;dbl&gt;        &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;
+##  1 Acur…    57          3.5         6     9 Manual          21 Turbochar… Y    
+##  2 ALFA…   410          1.8         4     6 Manual          28 Turbochar… Y    
+##  3 Audi…    65          5.2        10     7 Manual          17 Naturally… Y    
+##  4 Audi…    71          5.2        10     7 Manual          18 Naturally… Y    
+##  5 Audi…    66          5.2        10     7 Manual          17 Naturally… Y    
+##  6 Audi…    72          5.2        10     7 Manual          18 Naturally… Y    
+##  7 Audi…    46          2           4     6 Manual          26 Turbochar… Y    
+##  8 BMW …   488          3           6     7 Manual          20 Turbochar… N    
+##  9 Buga…    38          8          16     7 Manual          11 Turbochar… Y    
+## 10 Chev…   278          6.2         8     8 Automatic       18 Naturally… Y    
+## # … with 1,134 more rows, and 6 more variables: Drive &lt;chr&gt;, MaxEthanol &lt;dbl&gt;,
+## #   Fuel &lt;chr&gt;, Intake &lt;dbl&gt;, Exhaust &lt;dbl&gt;, FuelInjection &lt;chr&gt;
+```
+
+
+---
+
+#### How is the grouped data frame different from the original?
+--
+
+
+```r
+grouped_cars
+```
+
+```
+## # A tibble: 1,144 x 15
+## # Groups:   Transmission [3]
+##    Model    ID Displacement Cylinders Gears Transmission   MPG Aspiration LTC  
+##    &lt;chr&gt; &lt;dbl&gt;        &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;
+##  1 Acur…    57          3.5         6     9 Manual          21 Turbochar… Y    
+##  2 ALFA…   410          1.8         4     6 Manual          28 Turbochar… Y    
+##  3 Audi…    65          5.2        10     7 Manual          17 Naturally… Y    
+##  4 Audi…    71          5.2        10     7 Manual          18 Naturally… Y    
+##  5 Audi…    66          5.2        10     7 Manual          17 Naturally… Y    
+##  6 Audi…    72          5.2        10     7 Manual          18 Naturally… Y    
+##  7 Audi…    46          2           4     6 Manual          26 Turbochar… Y    
+##  8 BMW …   488          3           6     7 Manual          20 Turbochar… N    
+##  9 Buga…    38          8          16     7 Manual          11 Turbochar… Y    
+## 10 Chev…   278          6.2         8     8 Automatic       18 Naturally… Y    
+## # … with 1,134 more rows, and 6 more variables: Drive &lt;chr&gt;, MaxEthanol &lt;dbl&gt;,
+## #   Fuel &lt;chr&gt;, Intake &lt;dbl&gt;, Exhaust &lt;dbl&gt;, FuelInjection &lt;chr&gt;
+```
+
+
+  * Notice the information about groups above the data
+
+  * Rows have been put into 3 different groups based on their department
+  
+
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+
+```r
+grouped_cars &lt;- group_by(cars2018, Transmission)
+```
+ 
+ 
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+
+```r
+grouped_cars &lt;- group_by(cars2018, Transmission)
+report &lt;- summarise(grouped_cars, NumCars = n(), 
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+```
+
+
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+
+```r
+grouped_cars &lt;- group_by(cars2018, Transmission)
+report &lt;- summarise(grouped_cars, NumCars = n(), 
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+
+head(report)
+```
+
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+
+```r
+grouped_cars &lt;- group_by(cars2018, Transmission)
+report &lt;- summarise(grouped_cars, NumCars = n(), 
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+
+head(report)
+```
+
+```
+## # A tibble: 3 x 3
+##   Transmission NumCars AvgMPG
+##   &lt;chr&gt;          &lt;int&gt;  &lt;dbl&gt;
+## 1 Automatic        760   21.8
+## 2 CVT               85   31.2
+## 3 Manual           299   24.3
+```
+
+---
+### Assessment
+
+#### Create a data frame that:
+  * contains the number of cars of each transmission type with fuel efficiency 30 MPG or greater
+  * is ordered by the number of cars meeting the criterion (descending)
+
+Reorder the following lines of code and fill in the blanks where necessary
+
+
+
+```r
+____ &lt;- arrange(____, desc(____))
+____ &lt;- summarise(____, ____ = n())
+____ &lt;- filter(____, ____ &gt; ____)
+____ &lt;- group_by(____, ____)
+```
+
+
+
+---
+### Creating piplelines
+
+#### Can we pass output from one function automatically to other functions?
+
+--
+
+Yes. Using the &lt;tt&gt;%&gt;%&lt;/tt&gt; operator (which is in the &lt;tt&gt;dplyr&lt;/tt&gt; package)
+
+--
+
+How:
+
+  * place the &lt;tt&gt;%&gt;%&lt;/tt&gt; between the functions in the pipeline
+  
+  * omit the first input to any function that is receiving input from the &lt;tt&gt;%&gt;%&lt;/tt&gt;
+  
+--
+
+Example: Create a report with the number of cars with each transmission type and the average MPG for each type
+
+--
+
+
+```r
+transmission_rpt &lt;- group_by(cars2018, Transmission) %&gt;%
+  summarise(NumCars = n(), AvgMPG = mean(MPG))
+
+transmission_rpt
+```
+
+```
+## # A tibble: 3 x 3
+##   Transmission NumCars AvgMPG
+##   &lt;chr&gt;          &lt;int&gt;  &lt;dbl&gt;
+## 1 Automatic        760   21.8
+## 2 CVT               85   31.2
+## 3 Manual           299   24.3
+```
+
+
+---
+
+### Alternative solution
+
+
+```r
+transmission_rpt &lt;- cars2018 %&gt;% group_by(Transmission) %&gt;%
+  summarise(NumCars = n(), AvgMPG = mean(MPG))
+
+transmission_rpt
+```
+
+```
+## # A tibble: 3 x 3
+##   Transmission NumCars AvgMPG
+##   &lt;chr&gt;          &lt;int&gt;  &lt;dbl&gt;
+## 1 Automatic        760   21.8
+## 2 CVT               85   31.2
+## 3 Manual           299   24.3
+```
+
+
+
+---
+
+### Maybe time for other data
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="libs/remark.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

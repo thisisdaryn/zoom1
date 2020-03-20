@@ -1,0 +1,831 @@
+---
+title: "dplyr 1: key verbs"
+subtitle: "Daryn Ramsden"
+author: "thisisdaryn at gmail dot com"
+date: "last updated: `r Sys.Date()`"
+institution: ""
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    chakra: libs/remark.js
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(fig.align="center", fig.width=5, fig.height=5, warning = FALSE, message = FALSE)
+```
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+duo_accent(
+  primary_color = "ivory",
+  secondary_color = "#310A31",
+  header_font_google = google_font("Roboto", "400"),
+  text_font_google   = google_font("Lato", "300"),
+  code_font_family = "Fira Code",
+  code_font_url = "https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css",
+  header_color = "#f54278",
+  title_slide_text_color = "#354a66",
+  padding = "15px 15px 25px 15px"
+)
+```
+
+
+## dplyr: a package for data manipulation
+
+The data you get is almost in the form you want
+
+--
+
+<tt>dplyr</tt> is an R package that encapsulates many common data manipulation tasks
+
+--
+
+Sometimes you want to: 
+--
+
+  * keep only some of the rows
+
+--
+
+  * keep only some of the columns
+
+--
+
+  * adds new columns
+
+--
+
+  * sort data
+  
+--
+
+  * provide summary statistics
+
+--
+
+<tt>dplyr</tt> has a function for each of these
+
+  
+---
+## 5 Key tasks/verbs/functions
+
+  * <tt>filter</tt>: keep only some of the rows 
+
+
+  * <tt>select</tt>: keep only some of the columns 
+
+  * <tt>mutate</tt> adds new columns
+
+
+
+  * <tt>arrange</tt>: sort data
+  
+
+
+  * <tt>summarise</tt> (and <tt>group_by</tt>): provide summary statistics 
+  
+---
+## First, let's get some data
+
+```{r message = FALSE, warning = FALSE, eval = FALSE}
+library(readr)
+
+cars2018 <- read_csv("data/cars2018.csv")
+```
+
+---
+## First, let's get some data
+
+```{r message = FALSE, warning = FALSE, eval = FALSE}
+library(readr)
+
+cars2018 <- read_csv("data/cars2018.csv")
+cars2018
+```
+
+
+---
+## First, let's get some data
+
+```{r message = FALSE, warning = FALSE}
+library(readr)
+
+cars2018 <- read_csv("data/cars2018.csv")
+cars2018
+```
+
+
+
+---
+### What is this data?
+
+
+--
+Information from the US Department of Energy about 2018 model vehicles
+--
+
+#### What do (some) of the fields represent?
+
+  * Model: Make and model of the vehicle 
+
+--
+
+  * Displacement: Measure of the engine's size
+--
+
+  * Cylinders: Number of cylinders
+
+--
+
+  * Gears: Number of Gears
+  
+--
+  
+  * Transmission: <i>Automatic</i>, <i>Manual</i>, or <i>CVT</i> 
+  
+--
+
+  * MPG: Miles per gallon (highway driving)
+
+  
+
+
+---
+## How do we use dplyr?
+
+--
+
+```{r eval = TRUE}
+library(dplyr)
+```
+--
+
+
+### Or ...
+
+--
+you can load the entire <tt>tidyverse</tt> 
+
+```{r eval = FALSE}
+library(tidyverse)
+```
+
+
+
+---
+### If you've never installed it before 
+
+--
+
+You will need to install the package first 
+
+```{r eval = FALSE}
+install.packages("dplyr")
+```
+
+--
+or 
+
+```{r eval = FALSE}
+install.packages("tidyverse")
+```
+
+
+
+
+---
+### Key thing to remember
+
+--
+
+All of these functions have these in common:
+
+--
+
+  * the first input is a data frame 
+  
+--
+
+  * there are a variable number of following inputs specifying the manipulation you want to do
+
+
+---
+## filter
+
+#### a function for specifying which rows to keep
+
+
+Example 1: How do we get all cars with manual transmissions?
+--
+```{r message = FALSE, eval = FALSE}
+manual <- filter(cars2018, Transmission == "Manual")
+```
+
+---
+## filter
+
+#### a function for specifying which rows to keep
+
+
+Example 1: How do we get all cars with manual transmissions?
+
+```{r message = FALSE, eval = FALSE}
+manual <- filter(cars2018, Transmission == "Manual")
+manual
+```
+
+  
+---
+## filter
+
+#### a function for specifying which rows to keep
+
+
+Example 1: How do we get all employees that are salaried?
+
+```{r message = FALSE}
+manual <- filter(cars2018, Transmission == "Manual")
+manual
+```
+
+
+---
+## filter
+
+#### 
+
+
+Example 2: How do we get all cars with 4 or more cylinders?
+--
+```{r}
+cyl_4 <- filter(cars2018, Cylinders >= 4)
+head(cyl_4)
+```
+
+
+---
+## filter
+
+#### 
+
+Example 3: How do we get all cars with manual transmissions and 4 or more cylinders?
+--
+```{r}
+manual_cyl4 <- filter(cars2018, Transmission == "Manual", 
+                     Cylinders >= 4)
+
+```
+
+---
+### Assessment
+
+How many automatic transmission cars have less than 6 gears?
+
+
+--
+
+```{r}
+auto_l6 <- filter(cars2018, Transmission == "Automatic",
+                      Gears < 6)
+dim(auto_l6)
+```
+
+
+
+
+
+---
+## select
+
+
+#### a function for specifying which columns to keep
+
+Example: How do we keep only the <tt>Model</tt>, <tt>MPG</tt>, <tt>Transmission</tt> and <tt>Cylinders</tt> columns?  
+
+```{r eval = FALSE}
+cars_narrow <- select(cars2018, Model, MPG, Transmission, Cylinders)
+```
+
+---
+## select
+
+
+#### a function for specifying which columns to keep
+
+Example: How do we keep only the <tt>Model</tt>, <tt>MPG</tt>, <tt>Transmission</tt> and <tt>Cylinders</tt> columns?  
+
+```{r eval = FALSE}
+cars_narrow <- select(cars2018, Model, MPG, Transmission, Cylinders)
+
+cars_narrow
+```
+
+
+---
+## select
+
+
+#### a function for specifying which columns to keep
+
+Example: How do we keep only the <tt>Model</tt>, <tt>MPG</tt>, <tt>Transmission</tt> and <tt>Cylinders</tt> columns?  
+
+```{r}
+cars_narrow <- select(cars2018, Model, MPG, Transmission, Cylinders)
+
+cars_narrow
+```
+
+
+---
+## select
+
+#### Example: we can use the <tt>-</tt> to specify columns we don't want to keep:
+
+--
+
+How do we keep all columns except the <tt>ID</tt>, <tt>Intake</tt>, and <tt>Exhaust</tt>?
+
+```{r eval = FALSE}
+cars_alt <- select(cars2018, -ID, -Intake, -Exhaust)
+```
+
+
+---
+## select
+
+#### Example: we can use the <tt>-</tt> to specify columns we don't want to keep:
+
+
+
+How do we keep all columns except the <tt>ID</tt>, <tt>Intake</tt>, and <tt>Exhaust</tt>?
+
+```{r eval = FALSE}
+cars_alt <- select(cars2018, -ID, -Intake, -Exhaust)
+cars_alt
+```
+---
+## select
+
+#### Example: we can use the <tt>-</tt> to specify columns we don't want to keep:
+
+
+
+How do we keep all columns except the <tt>ID</tt>, <tt>Intake</tt>, and <tt>Exhaust</tt>
+
+```{r}
+cars_alt <- select(cars2018, -ID, -Intake, -Exhaust)
+cars_alt
+```
+
+
+
+---
+## arrange 
+
+### a function to sort your data
+
+Example: How do we sort the data so that the cars are sorted by MPG?
+
+```{r}
+cars_sorted <- arrange(cars2018, MPG)
+```
+
+
+
+---
+## arrange
+
+Example: How do we sort the data so that the cars are sorted by MPG in descending order?
+
+```{r}
+cars_desc <- arrange(cars2018, desc(MPG))
+```
+
+
+---
+## arrange
+
+You can also sort by more than one variable
+
+Example: How do we sort the cars by Transmission type (alphabetically) with each type sorted by MPG (descending)?
+
+
+```{r}
+cars_transmpg <- arrange(cars2018, Transmission, desc(MPG))
+```
+
+
+
+--
+
+Question: How can you check that this works?
+
+--
+
+  * One way: Try the <tt>View</tt> function with the data frame you created as input.
+
+
+
+---
+### Assessment
+
+Fill in the code below to do the following tasks:
+
+  * start with the original data set (all employees)
+  * restrict to CVT transmission vehicles
+  * remove the <i>FuelInjection</i>, <i>Aspiration</i> and <i>LTC</i> columns
+  * order the data in descending order of MPG
+    * if cars have the same MPG order them by Model alphabetically 
+  
+  
+```{r eval = FALSE}
+____ <- filter(____, ____ == ____)
+____ <- select(____, -____, -_____, -_______)
+____ <- arrange(____, ____, ____)
+```
+
+
+
+
+---
+### Assessment solution
+
+
+
+
+
+```{r}
+df <- filter(cars2018, Transmission == "CVT")
+df2 <- select(df, -FuelInjection, -Aspiration, -LTC)
+df3 <- arrange(df2, desc(MPG), Model)
+
+df3
+```
+
+(You don't have to use the same data frame names.)
+
+
+---
+### Assessment solution: alternative
+
+
+  * You could also have overwritten the data frame at each step.
+    * your environment is less cluttered
+    * but seeing the intermediate data may help with troubleshooting/debugging your code
+
+```{r}
+df <- filter(cars2018, Transmission == "CVT")
+df <- select(df, -FuelInjection, -Aspiration, -LTC)
+df <- arrange(df, desc(MPG), Model)
+
+df
+```
+
+
+
+---
+## mutate
+
+#### a function to add new columns
+
+
+Example: Adding a column that indicates whether a car has a fuel efficiency 30 MPG or greater 
+
+```{r eval = FALSE}
+cars_30 <- mutate(cars2018, above30 = if_else(MPG > 30, TRUE, FALSE))
+```
+
+---
+## mutate
+
+#### a function to add new columns
+
+
+Example: Adding a column that indicates whether a car has a fuel efficiency 30 MPG or greater 
+
+```{r eval = FALSE}
+cars_30 <- mutate(cars2018, above30 = if_else(MPG > 30, TRUE, FALSE))
+
+cars30 
+```
+
+
+
+---
+## mutate
+
+#### a function to add new columns
+
+
+Example: Adding a column that indicates whether a car has a fuel efficiency 30 MPG or greater 
+
+```{r}
+cars_30 <- mutate(cars2018, above30 = if_else(MPG > 30, TRUE, FALSE))
+
+head(cars_30)
+```
+
+
+---
+## summarise
+
+#### a function for summary statistics
+
+
+Example: Provide the following summary statistics for the City of Chicago:
+
+  * the total number of cars
+  * the average MPG
+
+```{r eval = FALSE}
+report <- summarise(cars2018, NumCars = n(),
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+```
+
+---
+## summarise
+
+#### a function for summary statistics
+
+
+Example: Provide the following summary statistics for the City of Chicago:
+
+  * the total number of cars
+  * the average MPG
+
+```{r eval = FALSE}
+report <- summarise(cars2018, NumCars = n(),
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+
+report
+```
+---
+## summarise
+
+#### a function for summary statistics
+
+
+Example: Provide the following summary statistics for the City of Chicago:
+
+  * the total number of cars
+  * the average MPG
+
+```{r}
+report <- summarise(cars2018, NumCars = n(),
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+
+report
+```
+---
+
+## summarise
+
+#### How can we find the following for Manual Transmission cars?
+
+  * the total number of cars
+  * the median MPG
+
+--
+
+```{r}
+manual_report <- summarise(manual, NumCars = n(),
+                           MedMPG = median(MPG, na.rm = TRUE))
+```
+
+---
+
+## summarise
+
+#### How can we find the following for Manual Transmission cars?
+
+  * the total number of cars
+  * the median MPG
+
+
+
+```{r eval = FALSE}
+manual_report <- summarise(manual, NumCars = n(),
+                           MedMPG = median(MPG, na.rm = TRUE))
+manual_report
+```
+
+
+---
+
+## summarise
+
+#### How can we find the following for Manual Transmission cars?
+
+  * the total number of cars
+  * the median MPG
+
+
+
+```{r}
+manual_report <- summarise(manual, NumCars = n(),
+                           MedMPG = median(MPG, na.rm = TRUE))
+manual_report
+```
+
+
+
+
+---
+
+
+## group_by
+
+#### A function to put the data into groups (before you summarise)
+
+
+What if we wanted summary statistics for Automatic, Manual and CVT?
+
+```{r}
+grouped_cars <- group_by(cars2018, Transmission)
+grouped_cars
+```
+
+
+---
+
+#### How is the grouped data frame different from the original?
+--
+
+```{r}
+grouped_cars
+```
+
+
+  * Notice the information about groups above the data
+
+  * Rows have been put into 3 different groups based on their department
+  
+
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+```{r}
+grouped_cars <- group_by(cars2018, Transmission)
+```
+ 
+ 
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+```{r eval = FALSE}
+grouped_cars <- group_by(cars2018, Transmission)
+report <- summarise(grouped_cars, NumCars = n(), 
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+``` 
+
+
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+```{r eval = FALSE}
+grouped_cars <- group_by(cars2018, Transmission)
+report <- summarise(grouped_cars, NumCars = n(), 
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+
+head(report)
+```
+
+
+---
+### So how can we use group_by?
+
+
+  * If we use summarise on grouped data, we get summary statistics for each group
+  
+
+Example: For each transmission type, what are:
+  * the number of cars
+  * the average MPG?
+  
+```{r}
+grouped_cars <- group_by(cars2018, Transmission)
+report <- summarise(grouped_cars, NumCars = n(), 
+                    AvgMPG = mean(MPG, na.rm = TRUE))
+
+head(report)
+```
+
+---
+### Assessment
+
+#### Create a data frame that:
+  * contains the number of cars of each transmission type with fuel efficiency 30 MPG or greater
+  * is ordered by the number of cars meeting the criterion (descending)
+
+Reorder the following lines of code and fill in the blanks where necessary
+
+
+```{r eval = FALSE}
+____ <- arrange(____, desc(____))
+____ <- summarise(____, ____ = n())
+____ <- filter(____, ____ > ____)
+____ <- group_by(____, ____)
+```
+
+
+
+---
+### Creating piplelines
+
+#### Can we pass output from one function automatically to other functions?
+
+--
+
+Yes. Using the <tt>%>%</tt> operator (which is in the <tt>dplyr</tt> package)
+
+--
+
+How:
+
+  * place the <tt>%>%</tt> between the functions in the pipeline
+  
+  * omit the first input to any function that is receiving input from the <tt>%>%</tt>
+  
+--
+
+Example: Create a report with the number of cars with each transmission type and the average MPG for each type
+
+--
+
+```{r}
+transmission_rpt <- group_by(cars2018, Transmission) %>%
+  summarise(NumCars = n(), AvgMPG = mean(MPG))
+
+transmission_rpt
+```
+
+
+---
+
+### Alternative solution
+
+```{r}
+transmission_rpt <- cars2018 %>% group_by(Transmission) %>%
+  summarise(NumCars = n(), AvgMPG = mean(MPG))
+
+transmission_rpt
+```
+
+
+
+---
+
+### Maybe time for other data
